@@ -1,0 +1,5127 @@
+[
+  {
+    "id": 1,
+    "name": "フシギダネ",
+    "apiName": "bulbasaur"
+  },
+  {
+    "id": 2,
+    "name": "フシギソウ",
+    "apiName": "ivysaur"
+  },
+  {
+    "id": 3,
+    "name": "フシギバナ",
+    "apiName": "venusaur"
+  },
+  {
+    "id": 4,
+    "name": "ヒトカゲ",
+    "apiName": "charmander"
+  },
+  {
+    "id": 5,
+    "name": "リザード",
+    "apiName": "charmeleon"
+  },
+  {
+    "id": 6,
+    "name": "リザードン",
+    "apiName": "charizard"
+  },
+  {
+    "id": 7,
+    "name": "ゼニガメ",
+    "apiName": "squirtle"
+  },
+  {
+    "id": 8,
+    "name": "カメール",
+    "apiName": "wartortle"
+  },
+  {
+    "id": 9,
+    "name": "カメックス",
+    "apiName": "blastoise"
+  },
+  {
+    "id": 10,
+    "name": "キャタピー",
+    "apiName": "caterpie"
+  },
+  {
+    "id": 11,
+    "name": "トランセル",
+    "apiName": "metapod"
+  },
+  {
+    "id": 12,
+    "name": "バタフリー",
+    "apiName": "butterfree"
+  },
+  {
+    "id": 13,
+    "name": "ビードル",
+    "apiName": "weedle"
+  },
+  {
+    "id": 14,
+    "name": "コクーン",
+    "apiName": "kakuna"
+  },
+  {
+    "id": 15,
+    "name": "スピアー",
+    "apiName": "beedrill"
+  },
+  {
+    "id": 16,
+    "name": "ポッポ",
+    "apiName": "pidgey"
+  },
+  {
+    "id": 17,
+    "name": "ピジョン",
+    "apiName": "pidgeotto"
+  },
+  {
+    "id": 18,
+    "name": "ピジョット",
+    "apiName": "pidgeot"
+  },
+  {
+    "id": 19,
+    "name": "コラッタ",
+    "apiName": "rattata"
+  },
+  {
+    "id": 20,
+    "name": "ラッタ",
+    "apiName": "raticate"
+  },
+  {
+    "id": 21,
+    "name": "オニスズメ",
+    "apiName": "spearow"
+  },
+  {
+    "id": 22,
+    "name": "オニドリル",
+    "apiName": "fearow"
+  },
+  {
+    "id": 23,
+    "name": "アーボ",
+    "apiName": "ekans"
+  },
+  {
+    "id": 24,
+    "name": "アーボック",
+    "apiName": "arbok"
+  },
+  {
+    "id": 25,
+    "name": "ピカチュウ",
+    "apiName": "pikachu"
+  },
+  {
+    "id": 26,
+    "name": "ライチュウ",
+    "apiName": "raichu"
+  },
+  {
+    "id": 27,
+    "name": "サンド",
+    "apiName": "sandshrew"
+  },
+  {
+    "id": 28,
+    "name": "サンドパン",
+    "apiName": "sandslash"
+  },
+  {
+    "id": 29,
+    "name": "ニドラン♀",
+    "apiName": "nidoran-f"
+  },
+  {
+    "id": 30,
+    "name": "ニドリーナ",
+    "apiName": "nidorina"
+  },
+  {
+    "id": 31,
+    "name": "ニドクイン",
+    "apiName": "nidoqueen"
+  },
+  {
+    "id": 32,
+    "name": "ニドラン♂",
+    "apiName": "nidoran-m"
+  },
+  {
+    "id": 33,
+    "name": "ニドリーノ",
+    "apiName": "nidorino"
+  },
+  {
+    "id": 34,
+    "name": "ニドキング",
+    "apiName": "nidoking"
+  },
+  {
+    "id": 35,
+    "name": "ピッピ",
+    "apiName": "clefairy"
+  },
+  {
+    "id": 36,
+    "name": "ピクシー",
+    "apiName": "clefable"
+  },
+  {
+    "id": 37,
+    "name": "ロコン",
+    "apiName": "vulpix"
+  },
+  {
+    "id": 38,
+    "name": "キュウコン",
+    "apiName": "ninetales"
+  },
+  {
+    "id": 39,
+    "name": "プリン",
+    "apiName": "jigglypuff"
+  },
+  {
+    "id": 40,
+    "name": "プクリン",
+    "apiName": "wigglytuff"
+  },
+  {
+    "id": 41,
+    "name": "ズバット",
+    "apiName": "zubat"
+  },
+  {
+    "id": 42,
+    "name": "ゴルバット",
+    "apiName": "golbat"
+  },
+  {
+    "id": 43,
+    "name": "ナゾノクサ",
+    "apiName": "oddish"
+  },
+  {
+    "id": 44,
+    "name": "クサイハナ",
+    "apiName": "gloom"
+  },
+  {
+    "id": 45,
+    "name": "ラフレシア",
+    "apiName": "vileplume"
+  },
+  {
+    "id": 46,
+    "name": "パラス",
+    "apiName": "paras"
+  },
+  {
+    "id": 47,
+    "name": "パラセクト",
+    "apiName": "parasect"
+  },
+  {
+    "id": 48,
+    "name": "コンパン",
+    "apiName": "venonat"
+  },
+  {
+    "id": 49,
+    "name": "モルフォン",
+    "apiName": "venomoth"
+  },
+  {
+    "id": 50,
+    "name": "ディグダ",
+    "apiName": "diglett"
+  },
+  {
+    "id": 51,
+    "name": "ダグトリオ",
+    "apiName": "dugtrio"
+  },
+  {
+    "id": 52,
+    "name": "ニャース",
+    "apiName": "meowth"
+  },
+  {
+    "id": 53,
+    "name": "ペルシアン",
+    "apiName": "persian"
+  },
+  {
+    "id": 54,
+    "name": "コダック",
+    "apiName": "psyduck"
+  },
+  {
+    "id": 55,
+    "name": "ゴルダック",
+    "apiName": "golduck"
+  },
+  {
+    "id": 56,
+    "name": "マンキー",
+    "apiName": "mankey"
+  },
+  {
+    "id": 57,
+    "name": "オコリザル",
+    "apiName": "primeape"
+  },
+  {
+    "id": 58,
+    "name": "ガーディ",
+    "apiName": "growlithe"
+  },
+  {
+    "id": 59,
+    "name": "ウインディ",
+    "apiName": "arcanine"
+  },
+  {
+    "id": 60,
+    "name": "ニョロモ",
+    "apiName": "poliwag"
+  },
+  {
+    "id": 61,
+    "name": "ニョロゾ",
+    "apiName": "poliwhirl"
+  },
+  {
+    "id": 62,
+    "name": "ニョロボン",
+    "apiName": "poliwrath"
+  },
+  {
+    "id": 63,
+    "name": "ケーシィ",
+    "apiName": "abra"
+  },
+  {
+    "id": 64,
+    "name": "ユンゲラー",
+    "apiName": "kadabra"
+  },
+  {
+    "id": 65,
+    "name": "フーディン",
+    "apiName": "alakazam"
+  },
+  {
+    "id": 66,
+    "name": "ワンリキー",
+    "apiName": "machop"
+  },
+  {
+    "id": 67,
+    "name": "ゴーリキー",
+    "apiName": "machoke"
+  },
+  {
+    "id": 68,
+    "name": "カイリキー",
+    "apiName": "machamp"
+  },
+  {
+    "id": 69,
+    "name": "マダツボミ",
+    "apiName": "bellsprout"
+  },
+  {
+    "id": 70,
+    "name": "ウツドン",
+    "apiName": "weepinbell"
+  },
+  {
+    "id": 71,
+    "name": "ウツボット",
+    "apiName": "victreebel"
+  },
+  {
+    "id": 72,
+    "name": "メノクラゲ",
+    "apiName": "tentacool"
+  },
+  {
+    "id": 73,
+    "name": "ドククラゲ",
+    "apiName": "tentacruel"
+  },
+  {
+    "id": 74,
+    "name": "イシツブテ",
+    "apiName": "geodude"
+  },
+  {
+    "id": 75,
+    "name": "ゴローン",
+    "apiName": "graveler"
+  },
+  {
+    "id": 76,
+    "name": "ゴローニャ",
+    "apiName": "golem"
+  },
+  {
+    "id": 77,
+    "name": "ポニータ",
+    "apiName": "ponyta"
+  },
+  {
+    "id": 78,
+    "name": "ギャロップ",
+    "apiName": "rapidash"
+  },
+  {
+    "id": 79,
+    "name": "ヤドン",
+    "apiName": "slowpoke"
+  },
+  {
+    "id": 80,
+    "name": "ヤドラン",
+    "apiName": "slowbro"
+  },
+  {
+    "id": 81,
+    "name": "コイル",
+    "apiName": "magnemite"
+  },
+  {
+    "id": 82,
+    "name": "レアコイル",
+    "apiName": "magneton"
+  },
+  {
+    "id": 83,
+    "name": "カモネギ",
+    "apiName": "farfetchd"
+  },
+  {
+    "id": 84,
+    "name": "ドードー",
+    "apiName": "doduo"
+  },
+  {
+    "id": 85,
+    "name": "ドードリオ",
+    "apiName": "dodrio"
+  },
+  {
+    "id": 86,
+    "name": "パウワウ",
+    "apiName": "seel"
+  },
+  {
+    "id": 87,
+    "name": "ジュゴン",
+    "apiName": "dewgong"
+  },
+  {
+    "id": 88,
+    "name": "ベトベター",
+    "apiName": "grimer"
+  },
+  {
+    "id": 89,
+    "name": "ベトベトン",
+    "apiName": "muk"
+  },
+  {
+    "id": 90,
+    "name": "シェルダー",
+    "apiName": "shellder"
+  },
+  {
+    "id": 91,
+    "name": "パルシェン",
+    "apiName": "cloyster"
+  },
+  {
+    "id": 92,
+    "name": "ゴース",
+    "apiName": "gastly"
+  },
+  {
+    "id": 93,
+    "name": "ゴースト",
+    "apiName": "haunter"
+  },
+  {
+    "id": 94,
+    "name": "ゲンガー",
+    "apiName": "gengar"
+  },
+  {
+    "id": 95,
+    "name": "イワーク",
+    "apiName": "onix"
+  },
+  {
+    "id": 96,
+    "name": "スリープ",
+    "apiName": "drowzee"
+  },
+  {
+    "id": 97,
+    "name": "スリーパー",
+    "apiName": "hypno"
+  },
+  {
+    "id": 98,
+    "name": "クラブ",
+    "apiName": "krabby"
+  },
+  {
+    "id": 99,
+    "name": "キングラー",
+    "apiName": "kingler"
+  },
+  {
+    "id": 100,
+    "name": "ビリリダマ",
+    "apiName": "voltorb"
+  },
+  {
+    "id": 101,
+    "name": "マルマイン",
+    "apiName": "electrode"
+  },
+  {
+    "id": 102,
+    "name": "タマタマ",
+    "apiName": "exeggcute"
+  },
+  {
+    "id": 103,
+    "name": "ナッシー",
+    "apiName": "exeggutor"
+  },
+  {
+    "id": 104,
+    "name": "カラカラ",
+    "apiName": "cubone"
+  },
+  {
+    "id": 105,
+    "name": "ガラガラ",
+    "apiName": "marowak"
+  },
+  {
+    "id": 106,
+    "name": "サワムラー",
+    "apiName": "hitmonlee"
+  },
+  {
+    "id": 107,
+    "name": "エビワラー",
+    "apiName": "hitmonchan"
+  },
+  {
+    "id": 108,
+    "name": "ベロリンガ",
+    "apiName": "lickitung"
+  },
+  {
+    "id": 109,
+    "name": "ドガース",
+    "apiName": "koffing"
+  },
+  {
+    "id": 110,
+    "name": "マタドガス",
+    "apiName": "weezing"
+  },
+  {
+    "id": 111,
+    "name": "サイホーン",
+    "apiName": "rhyhorn"
+  },
+  {
+    "id": 112,
+    "name": "サイドン",
+    "apiName": "rhydon"
+  },
+  {
+    "id": 113,
+    "name": "ラッキー",
+    "apiName": "chansey"
+  },
+  {
+    "id": 114,
+    "name": "モンジャラ",
+    "apiName": "tangela"
+  },
+  {
+    "id": 115,
+    "name": "ガルーラ",
+    "apiName": "kangaskhan"
+  },
+  {
+    "id": 116,
+    "name": "タッツー",
+    "apiName": "horsea"
+  },
+  {
+    "id": 117,
+    "name": "シードラ",
+    "apiName": "seadra"
+  },
+  {
+    "id": 118,
+    "name": "トサキント",
+    "apiName": "goldeen"
+  },
+  {
+    "id": 119,
+    "name": "アズマオウ",
+    "apiName": "seaking"
+  },
+  {
+    "id": 120,
+    "name": "ヒトデマン",
+    "apiName": "staryu"
+  },
+  {
+    "id": 121,
+    "name": "スターミー",
+    "apiName": "starmie"
+  },
+  {
+    "id": 122,
+    "name": "バリヤード",
+    "apiName": "mr-mime"
+  },
+  {
+    "id": 123,
+    "name": "ストライク",
+    "apiName": "scyther"
+  },
+  {
+    "id": 124,
+    "name": "ルージュラ",
+    "apiName": "jynx"
+  },
+  {
+    "id": 125,
+    "name": "エレブー",
+    "apiName": "electabuzz"
+  },
+  {
+    "id": 126,
+    "name": "ブーバー",
+    "apiName": "magmar"
+  },
+  {
+    "id": 127,
+    "name": "カイロス",
+    "apiName": "pinsir"
+  },
+  {
+    "id": 128,
+    "name": "ケンタロス",
+    "apiName": "tauros"
+  },
+  {
+    "id": 129,
+    "name": "コイキング",
+    "apiName": "magikarp"
+  },
+  {
+    "id": 130,
+    "name": "ギャラドス",
+    "apiName": "gyarados"
+  },
+  {
+    "id": 131,
+    "name": "ラプラス",
+    "apiName": "lapras"
+  },
+  {
+    "id": 132,
+    "name": "メタモン",
+    "apiName": "ditto"
+  },
+  {
+    "id": 133,
+    "name": "イーブイ",
+    "apiName": "eevee"
+  },
+  {
+    "id": 134,
+    "name": "シャワーズ",
+    "apiName": "vaporeon"
+  },
+  {
+    "id": 135,
+    "name": "サンダース",
+    "apiName": "jolteon"
+  },
+  {
+    "id": 136,
+    "name": "ブースター",
+    "apiName": "flareon"
+  },
+  {
+    "id": 137,
+    "name": "ポリゴン",
+    "apiName": "porygon"
+  },
+  {
+    "id": 138,
+    "name": "オムナイト",
+    "apiName": "omanyte"
+  },
+  {
+    "id": 139,
+    "name": "オムスター",
+    "apiName": "omastar"
+  },
+  {
+    "id": 140,
+    "name": "カブト",
+    "apiName": "kabuto"
+  },
+  {
+    "id": 141,
+    "name": "カブトプス",
+    "apiName": "kabutops"
+  },
+  {
+    "id": 142,
+    "name": "プテラ",
+    "apiName": "aerodactyl"
+  },
+  {
+    "id": 143,
+    "name": "カビゴン",
+    "apiName": "snorlax"
+  },
+  {
+    "id": 144,
+    "name": "フリーザー",
+    "apiName": "articuno"
+  },
+  {
+    "id": 145,
+    "name": "サンダー",
+    "apiName": "zapdos"
+  },
+  {
+    "id": 146,
+    "name": "ファイヤー",
+    "apiName": "moltres"
+  },
+  {
+    "id": 147,
+    "name": "ミニリュウ",
+    "apiName": "dratini"
+  },
+  {
+    "id": 148,
+    "name": "ハクリュー",
+    "apiName": "dragonair"
+  },
+  {
+    "id": 149,
+    "name": "カイリュー",
+    "apiName": "dragonite"
+  },
+  {
+    "id": 150,
+    "name": "ミュウツー",
+    "apiName": "mewtwo"
+  },
+  {
+    "id": 151,
+    "name": "ミュウ",
+    "apiName": "mew"
+  },
+  {
+    "id": 152,
+    "name": "チコリータ",
+    "apiName": "chikorita"
+  },
+  {
+    "id": 153,
+    "name": "ベイリーフ",
+    "apiName": "bayleef"
+  },
+  {
+    "id": 154,
+    "name": "メガニウム",
+    "apiName": "meganium"
+  },
+  {
+    "id": 155,
+    "name": "ヒノアラシ",
+    "apiName": "cyndaquil"
+  },
+  {
+    "id": 156,
+    "name": "マグマラシ",
+    "apiName": "quilava"
+  },
+  {
+    "id": 157,
+    "name": "バクフーン",
+    "apiName": "typhlosion"
+  },
+  {
+    "id": 158,
+    "name": "ワニノコ",
+    "apiName": "totodile"
+  },
+  {
+    "id": 159,
+    "name": "アリゲイツ",
+    "apiName": "croconaw"
+  },
+  {
+    "id": 160,
+    "name": "オーダイル",
+    "apiName": "feraligatr"
+  },
+  {
+    "id": 161,
+    "name": "オタチ",
+    "apiName": "sentret"
+  },
+  {
+    "id": 162,
+    "name": "オオタチ",
+    "apiName": "furret"
+  },
+  {
+    "id": 163,
+    "name": "ホーホー",
+    "apiName": "hoothoot"
+  },
+  {
+    "id": 164,
+    "name": "ヨルノズク",
+    "apiName": "noctowl"
+  },
+  {
+    "id": 165,
+    "name": "レディバ",
+    "apiName": "ledyba"
+  },
+  {
+    "id": 166,
+    "name": "レディアン",
+    "apiName": "ledian"
+  },
+  {
+    "id": 167,
+    "name": "イトマル",
+    "apiName": "spinarak"
+  },
+  {
+    "id": 168,
+    "name": "アリアドス",
+    "apiName": "ariados"
+  },
+  {
+    "id": 169,
+    "name": "クロバット",
+    "apiName": "crobat"
+  },
+  {
+    "id": 170,
+    "name": "チョンチー",
+    "apiName": "chinchou"
+  },
+  {
+    "id": 171,
+    "name": "ランターン",
+    "apiName": "lanturn"
+  },
+  {
+    "id": 172,
+    "name": "ピチュー",
+    "apiName": "pichu"
+  },
+  {
+    "id": 173,
+    "name": "ピィ",
+    "apiName": "cleffa"
+  },
+  {
+    "id": 174,
+    "name": "ププリン",
+    "apiName": "igglybuff"
+  },
+  {
+    "id": 175,
+    "name": "トゲピー",
+    "apiName": "togepi"
+  },
+  {
+    "id": 176,
+    "name": "トゲチック",
+    "apiName": "togetic"
+  },
+  {
+    "id": 177,
+    "name": "ネイティ",
+    "apiName": "natu"
+  },
+  {
+    "id": 178,
+    "name": "ネイティオ",
+    "apiName": "xatu"
+  },
+  {
+    "id": 179,
+    "name": "メリープ",
+    "apiName": "mareep"
+  },
+  {
+    "id": 180,
+    "name": "モココ",
+    "apiName": "flaaffy"
+  },
+  {
+    "id": 181,
+    "name": "デンリュウ",
+    "apiName": "ampharos"
+  },
+  {
+    "id": 182,
+    "name": "キレイハナ",
+    "apiName": "bellossom"
+  },
+  {
+    "id": 183,
+    "name": "マリル",
+    "apiName": "marill"
+  },
+  {
+    "id": 184,
+    "name": "マリルリ",
+    "apiName": "azumarill"
+  },
+  {
+    "id": 185,
+    "name": "ウソッキー",
+    "apiName": "sudowoodo"
+  },
+  {
+    "id": 186,
+    "name": "ニョロトノ",
+    "apiName": "politoed"
+  },
+  {
+    "id": 187,
+    "name": "ハネッコ",
+    "apiName": "hoppip"
+  },
+  {
+    "id": 188,
+    "name": "ポポッコ",
+    "apiName": "skiploom"
+  },
+  {
+    "id": 189,
+    "name": "ワタッコ",
+    "apiName": "jumpluff"
+  },
+  {
+    "id": 190,
+    "name": "エイパム",
+    "apiName": "aipom"
+  },
+  {
+    "id": 191,
+    "name": "ヒマナッツ",
+    "apiName": "sunkern"
+  },
+  {
+    "id": 192,
+    "name": "キマワリ",
+    "apiName": "sunflora"
+  },
+  {
+    "id": 193,
+    "name": "ヤンヤンマ",
+    "apiName": "yanma"
+  },
+  {
+    "id": 194,
+    "name": "ウパー",
+    "apiName": "wooper"
+  },
+  {
+    "id": 195,
+    "name": "ヌオー",
+    "apiName": "quagsire"
+  },
+  {
+    "id": 196,
+    "name": "エーフィ",
+    "apiName": "espeon"
+  },
+  {
+    "id": 197,
+    "name": "ブラッキー",
+    "apiName": "umbreon"
+  },
+  {
+    "id": 198,
+    "name": "ヤミカラス",
+    "apiName": "murkrow"
+  },
+  {
+    "id": 199,
+    "name": "ヤドキング",
+    "apiName": "slowking"
+  },
+  {
+    "id": 200,
+    "name": "ムウマ",
+    "apiName": "misdreavus"
+  },
+  {
+    "id": 201,
+    "name": "アンノーン",
+    "apiName": "unown"
+  },
+  {
+    "id": 202,
+    "name": "ソーナンス",
+    "apiName": "wobbuffet"
+  },
+  {
+    "id": 203,
+    "name": "キリンリキ",
+    "apiName": "girafarig"
+  },
+  {
+    "id": 204,
+    "name": "クヌギダマ",
+    "apiName": "pineco"
+  },
+  {
+    "id": 205,
+    "name": "フォレトス",
+    "apiName": "forretress"
+  },
+  {
+    "id": 206,
+    "name": "ノコッチ",
+    "apiName": "dunsparce"
+  },
+  {
+    "id": 207,
+    "name": "グライガー",
+    "apiName": "gligar"
+  },
+  {
+    "id": 208,
+    "name": "ハガネール",
+    "apiName": "steelix"
+  },
+  {
+    "id": 209,
+    "name": "ブルー",
+    "apiName": "snubbull"
+  },
+  {
+    "id": 210,
+    "name": "グランブル",
+    "apiName": "granbull"
+  },
+  {
+    "id": 211,
+    "name": "ハリーセン",
+    "apiName": "qwilfish"
+  },
+  {
+    "id": 212,
+    "name": "ハッサム",
+    "apiName": "scizor"
+  },
+  {
+    "id": 213,
+    "name": "ツボツボ",
+    "apiName": "shuckle"
+  },
+  {
+    "id": 214,
+    "name": "ヘラクロス",
+    "apiName": "heracross"
+  },
+  {
+    "id": 215,
+    "name": "ニューラ",
+    "apiName": "sneasel"
+  },
+  {
+    "id": 216,
+    "name": "ヒメグマ",
+    "apiName": "teddiursa"
+  },
+  {
+    "id": 217,
+    "name": "リングマ",
+    "apiName": "ursaring"
+  },
+  {
+    "id": 218,
+    "name": "マグマッグ",
+    "apiName": "slugma"
+  },
+  {
+    "id": 219,
+    "name": "マグカルゴ",
+    "apiName": "magcargo"
+  },
+  {
+    "id": 220,
+    "name": "ウリムー",
+    "apiName": "swinub"
+  },
+  {
+    "id": 221,
+    "name": "イノムー",
+    "apiName": "piloswine"
+  },
+  {
+    "id": 222,
+    "name": "サニーゴ",
+    "apiName": "corsola"
+  },
+  {
+    "id": 223,
+    "name": "テッポウオ",
+    "apiName": "remoraid"
+  },
+  {
+    "id": 224,
+    "name": "オクタン",
+    "apiName": "octillery"
+  },
+  {
+    "id": 225,
+    "name": "デリバード",
+    "apiName": "delibird"
+  },
+  {
+    "id": 226,
+    "name": "マンタイン",
+    "apiName": "mantine"
+  },
+  {
+    "id": 227,
+    "name": "エアームド",
+    "apiName": "skarmory"
+  },
+  {
+    "id": 228,
+    "name": "デルビル",
+    "apiName": "houndour"
+  },
+  {
+    "id": 229,
+    "name": "ヘルガー",
+    "apiName": "houndoom"
+  },
+  {
+    "id": 230,
+    "name": "キングドラ",
+    "apiName": "kingdra"
+  },
+  {
+    "id": 231,
+    "name": "ゴマゾウ",
+    "apiName": "phanpy"
+  },
+  {
+    "id": 232,
+    "name": "ドンファン",
+    "apiName": "donphan"
+  },
+  {
+    "id": 233,
+    "name": "ポリゴン２",
+    "apiName": "porygon2"
+  },
+  {
+    "id": 234,
+    "name": "オドシシ",
+    "apiName": "stantler"
+  },
+  {
+    "id": 235,
+    "name": "ドーブル",
+    "apiName": "smeargle"
+  },
+  {
+    "id": 236,
+    "name": "バルキー",
+    "apiName": "tyrogue"
+  },
+  {
+    "id": 237,
+    "name": "カポエラー",
+    "apiName": "hitmontop"
+  },
+  {
+    "id": 238,
+    "name": "ムチュール",
+    "apiName": "smoochum"
+  },
+  {
+    "id": 239,
+    "name": "エレキッド",
+    "apiName": "elekid"
+  },
+  {
+    "id": 240,
+    "name": "ブビィ",
+    "apiName": "magby"
+  },
+  {
+    "id": 241,
+    "name": "ミルタンク",
+    "apiName": "miltank"
+  },
+  {
+    "id": 242,
+    "name": "ハピナス",
+    "apiName": "blissey"
+  },
+  {
+    "id": 243,
+    "name": "ライコウ",
+    "apiName": "raikou"
+  },
+  {
+    "id": 244,
+    "name": "エンテイ",
+    "apiName": "entei"
+  },
+  {
+    "id": 245,
+    "name": "スイクン",
+    "apiName": "suicune"
+  },
+  {
+    "id": 246,
+    "name": "ヨーギラス",
+    "apiName": "larvitar"
+  },
+  {
+    "id": 247,
+    "name": "サナギラス",
+    "apiName": "pupitar"
+  },
+  {
+    "id": 248,
+    "name": "バンギラス",
+    "apiName": "tyranitar"
+  },
+  {
+    "id": 249,
+    "name": "ルギア",
+    "apiName": "lugia"
+  },
+  {
+    "id": 250,
+    "name": "ホウオウ",
+    "apiName": "ho-oh"
+  },
+  {
+    "id": 251,
+    "name": "セレビィ",
+    "apiName": "celebi"
+  },
+  {
+    "id": 252,
+    "name": "キモリ",
+    "apiName": "treecko"
+  },
+  {
+    "id": 253,
+    "name": "ジュプトル",
+    "apiName": "grovyle"
+  },
+  {
+    "id": 254,
+    "name": "ジュカイン",
+    "apiName": "sceptile"
+  },
+  {
+    "id": 255,
+    "name": "アチャモ",
+    "apiName": "torchic"
+  },
+  {
+    "id": 256,
+    "name": "ワカシャモ",
+    "apiName": "combusken"
+  },
+  {
+    "id": 257,
+    "name": "バシャーモ",
+    "apiName": "blaziken"
+  },
+  {
+    "id": 258,
+    "name": "ミズゴロウ",
+    "apiName": "mudkip"
+  },
+  {
+    "id": 259,
+    "name": "ヌマクロー",
+    "apiName": "marshtomp"
+  },
+  {
+    "id": 260,
+    "name": "ラグラージ",
+    "apiName": "swampert"
+  },
+  {
+    "id": 261,
+    "name": "ポチエナ",
+    "apiName": "poochyena"
+  },
+  {
+    "id": 262,
+    "name": "グラエナ",
+    "apiName": "mightyena"
+  },
+  {
+    "id": 263,
+    "name": "ジグザグマ",
+    "apiName": "zigzagoon"
+  },
+  {
+    "id": 264,
+    "name": "マッスグマ",
+    "apiName": "linoone"
+  },
+  {
+    "id": 265,
+    "name": "ケムッソ",
+    "apiName": "wurmple"
+  },
+  {
+    "id": 266,
+    "name": "カラサリス",
+    "apiName": "silcoon"
+  },
+  {
+    "id": 267,
+    "name": "アゲハント",
+    "apiName": "beautifly"
+  },
+  {
+    "id": 268,
+    "name": "マユルド",
+    "apiName": "cascoon"
+  },
+  {
+    "id": 269,
+    "name": "ドクケイル",
+    "apiName": "dustox"
+  },
+  {
+    "id": 270,
+    "name": "ハスボー",
+    "apiName": "lotad"
+  },
+  {
+    "id": 271,
+    "name": "ハスブレロ",
+    "apiName": "lombre"
+  },
+  {
+    "id": 272,
+    "name": "ルンパッパ",
+    "apiName": "ludicolo"
+  },
+  {
+    "id": 273,
+    "name": "タネボー",
+    "apiName": "seedot"
+  },
+  {
+    "id": 274,
+    "name": "コノハナ",
+    "apiName": "nuzleaf"
+  },
+  {
+    "id": 275,
+    "name": "ダーテング",
+    "apiName": "shiftry"
+  },
+  {
+    "id": 276,
+    "name": "スバメ",
+    "apiName": "taillow"
+  },
+  {
+    "id": 277,
+    "name": "オオスバメ",
+    "apiName": "swellow"
+  },
+  {
+    "id": 278,
+    "name": "キャモメ",
+    "apiName": "wingull"
+  },
+  {
+    "id": 279,
+    "name": "ペリッパー",
+    "apiName": "pelipper"
+  },
+  {
+    "id": 280,
+    "name": "ラルトス",
+    "apiName": "ralts"
+  },
+  {
+    "id": 281,
+    "name": "キルリア",
+    "apiName": "kirlia"
+  },
+  {
+    "id": 282,
+    "name": "サーナイト",
+    "apiName": "gardevoir"
+  },
+  {
+    "id": 283,
+    "name": "アメタマ",
+    "apiName": "surskit"
+  },
+  {
+    "id": 284,
+    "name": "アメモース",
+    "apiName": "masquerain"
+  },
+  {
+    "id": 285,
+    "name": "キノココ",
+    "apiName": "shroomish"
+  },
+  {
+    "id": 286,
+    "name": "キノガッサ",
+    "apiName": "breloom"
+  },
+  {
+    "id": 287,
+    "name": "ナマケロ",
+    "apiName": "slakoth"
+  },
+  {
+    "id": 288,
+    "name": "ヤルキモノ",
+    "apiName": "vigoroth"
+  },
+  {
+    "id": 289,
+    "name": "ケッキング",
+    "apiName": "slaking"
+  },
+  {
+    "id": 290,
+    "name": "ツチニン",
+    "apiName": "nincada"
+  },
+  {
+    "id": 291,
+    "name": "テッカニン",
+    "apiName": "ninjask"
+  },
+  {
+    "id": 292,
+    "name": "ヌケニン",
+    "apiName": "shedinja"
+  },
+  {
+    "id": 293,
+    "name": "ゴニョニョ",
+    "apiName": "whismur"
+  },
+  {
+    "id": 294,
+    "name": "ドゴーム",
+    "apiName": "loudred"
+  },
+  {
+    "id": 295,
+    "name": "バクオング",
+    "apiName": "exploud"
+  },
+  {
+    "id": 296,
+    "name": "マクノシタ",
+    "apiName": "makuhita"
+  },
+  {
+    "id": 297,
+    "name": "ハリテヤマ",
+    "apiName": "hariyama"
+  },
+  {
+    "id": 298,
+    "name": "ルリリ",
+    "apiName": "azurill"
+  },
+  {
+    "id": 299,
+    "name": "ノズパス",
+    "apiName": "nosepass"
+  },
+  {
+    "id": 300,
+    "name": "エネコ",
+    "apiName": "skitty"
+  },
+  {
+    "id": 301,
+    "name": "エネコロロ",
+    "apiName": "delcatty"
+  },
+  {
+    "id": 302,
+    "name": "ヤミラミ",
+    "apiName": "sableye"
+  },
+  {
+    "id": 303,
+    "name": "クチート",
+    "apiName": "mawile"
+  },
+  {
+    "id": 304,
+    "name": "ココドラ",
+    "apiName": "aron"
+  },
+  {
+    "id": 305,
+    "name": "コドラ",
+    "apiName": "lairon"
+  },
+  {
+    "id": 306,
+    "name": "ボスゴドラ",
+    "apiName": "aggron"
+  },
+  {
+    "id": 307,
+    "name": "アサナン",
+    "apiName": "meditite"
+  },
+  {
+    "id": 308,
+    "name": "チャーレム",
+    "apiName": "medicham"
+  },
+  {
+    "id": 309,
+    "name": "ラクライ",
+    "apiName": "electrike"
+  },
+  {
+    "id": 310,
+    "name": "ライボルト",
+    "apiName": "manectric"
+  },
+  {
+    "id": 311,
+    "name": "プラスル",
+    "apiName": "plusle"
+  },
+  {
+    "id": 312,
+    "name": "マイナン",
+    "apiName": "minun"
+  },
+  {
+    "id": 313,
+    "name": "バルビート",
+    "apiName": "volbeat"
+  },
+  {
+    "id": 314,
+    "name": "イルミーゼ",
+    "apiName": "illumise"
+  },
+  {
+    "id": 315,
+    "name": "ロゼリア",
+    "apiName": "roselia"
+  },
+  {
+    "id": 316,
+    "name": "ゴクリン",
+    "apiName": "gulpin"
+  },
+  {
+    "id": 317,
+    "name": "マルノーム",
+    "apiName": "swalot"
+  },
+  {
+    "id": 318,
+    "name": "キバニア",
+    "apiName": "carvanha"
+  },
+  {
+    "id": 319,
+    "name": "サメハダー",
+    "apiName": "sharpedo"
+  },
+  {
+    "id": 320,
+    "name": "ホエルコ",
+    "apiName": "wailmer"
+  },
+  {
+    "id": 321,
+    "name": "ホエルオー",
+    "apiName": "wailord"
+  },
+  {
+    "id": 322,
+    "name": "ドンメル",
+    "apiName": "numel"
+  },
+  {
+    "id": 323,
+    "name": "バクーダ",
+    "apiName": "camerupt"
+  },
+  {
+    "id": 324,
+    "name": "コータス",
+    "apiName": "torkoal"
+  },
+  {
+    "id": 325,
+    "name": "バネブー",
+    "apiName": "spoink"
+  },
+  {
+    "id": 326,
+    "name": "ブーピッグ",
+    "apiName": "grumpig"
+  },
+  {
+    "id": 327,
+    "name": "パッチール",
+    "apiName": "spinda"
+  },
+  {
+    "id": 328,
+    "name": "ナックラー",
+    "apiName": "trapinch"
+  },
+  {
+    "id": 329,
+    "name": "ビブラーバ",
+    "apiName": "vibrava"
+  },
+  {
+    "id": 330,
+    "name": "フライゴン",
+    "apiName": "flygon"
+  },
+  {
+    "id": 331,
+    "name": "サボネア",
+    "apiName": "cacnea"
+  },
+  {
+    "id": 332,
+    "name": "ノクタス",
+    "apiName": "cacturne"
+  },
+  {
+    "id": 333,
+    "name": "チルット",
+    "apiName": "swablu"
+  },
+  {
+    "id": 334,
+    "name": "チルタリス",
+    "apiName": "altaria"
+  },
+  {
+    "id": 335,
+    "name": "ザングース",
+    "apiName": "zangoose"
+  },
+  {
+    "id": 336,
+    "name": "ハブネーク",
+    "apiName": "seviper"
+  },
+  {
+    "id": 337,
+    "name": "ルナトーン",
+    "apiName": "lunatone"
+  },
+  {
+    "id": 338,
+    "name": "ソルロック",
+    "apiName": "solrock"
+  },
+  {
+    "id": 339,
+    "name": "ドジョッチ",
+    "apiName": "barboach"
+  },
+  {
+    "id": 340,
+    "name": "ナマズン",
+    "apiName": "whiscash"
+  },
+  {
+    "id": 341,
+    "name": "ヘイガニ",
+    "apiName": "corphish"
+  },
+  {
+    "id": 342,
+    "name": "シザリガー",
+    "apiName": "crawdaunt"
+  },
+  {
+    "id": 343,
+    "name": "ヤジロン",
+    "apiName": "baltoy"
+  },
+  {
+    "id": 344,
+    "name": "ネンドール",
+    "apiName": "claydol"
+  },
+  {
+    "id": 345,
+    "name": "リリーラ",
+    "apiName": "lileep"
+  },
+  {
+    "id": 346,
+    "name": "ユレイドル",
+    "apiName": "cradily"
+  },
+  {
+    "id": 347,
+    "name": "アノプス",
+    "apiName": "anorith"
+  },
+  {
+    "id": 348,
+    "name": "アーマルド",
+    "apiName": "armaldo"
+  },
+  {
+    "id": 349,
+    "name": "ヒンバス",
+    "apiName": "feebas"
+  },
+  {
+    "id": 350,
+    "name": "ミロカロス",
+    "apiName": "milotic"
+  },
+  {
+    "id": 351,
+    "name": "ポワルン",
+    "apiName": "castform"
+  },
+  {
+    "id": 352,
+    "name": "カクレオン",
+    "apiName": "kecleon"
+  },
+  {
+    "id": 353,
+    "name": "カゲボウズ",
+    "apiName": "shuppet"
+  },
+  {
+    "id": 354,
+    "name": "ジュペッタ",
+    "apiName": "banette"
+  },
+  {
+    "id": 355,
+    "name": "ヨマワル",
+    "apiName": "duskull"
+  },
+  {
+    "id": 356,
+    "name": "サマヨール",
+    "apiName": "dusclops"
+  },
+  {
+    "id": 357,
+    "name": "トロピウス",
+    "apiName": "tropius"
+  },
+  {
+    "id": 358,
+    "name": "チリーン",
+    "apiName": "chimecho"
+  },
+  {
+    "id": 359,
+    "name": "アブソル",
+    "apiName": "absol"
+  },
+  {
+    "id": 360,
+    "name": "ソーナノ",
+    "apiName": "wynaut"
+  },
+  {
+    "id": 361,
+    "name": "ユキワラシ",
+    "apiName": "snorunt"
+  },
+  {
+    "id": 362,
+    "name": "オニゴーリ",
+    "apiName": "glalie"
+  },
+  {
+    "id": 363,
+    "name": "タマザラシ",
+    "apiName": "spheal"
+  },
+  {
+    "id": 364,
+    "name": "トドグラー",
+    "apiName": "sealeo"
+  },
+  {
+    "id": 365,
+    "name": "トドゼルガ",
+    "apiName": "walrein"
+  },
+  {
+    "id": 366,
+    "name": "パールル",
+    "apiName": "clamperl"
+  },
+  {
+    "id": 367,
+    "name": "ハンテール",
+    "apiName": "huntail"
+  },
+  {
+    "id": 368,
+    "name": "サクラビス",
+    "apiName": "gorebyss"
+  },
+  {
+    "id": 369,
+    "name": "ジーランス",
+    "apiName": "relicanth"
+  },
+  {
+    "id": 370,
+    "name": "ラブカス",
+    "apiName": "luvdisc"
+  },
+  {
+    "id": 371,
+    "name": "タツベイ",
+    "apiName": "bagon"
+  },
+  {
+    "id": 372,
+    "name": "コモルー",
+    "apiName": "shelgon"
+  },
+  {
+    "id": 373,
+    "name": "ボーマンダ",
+    "apiName": "salamence"
+  },
+  {
+    "id": 374,
+    "name": "ダンバル",
+    "apiName": "beldum"
+  },
+  {
+    "id": 375,
+    "name": "メタング",
+    "apiName": "metang"
+  },
+  {
+    "id": 376,
+    "name": "メタグロス",
+    "apiName": "metagross"
+  },
+  {
+    "id": 377,
+    "name": "レジロック",
+    "apiName": "regirock"
+  },
+  {
+    "id": 378,
+    "name": "レジアイス",
+    "apiName": "regice"
+  },
+  {
+    "id": 379,
+    "name": "レジスチル",
+    "apiName": "registeel"
+  },
+  {
+    "id": 380,
+    "name": "ラティアス",
+    "apiName": "latias"
+  },
+  {
+    "id": 381,
+    "name": "ラティオス",
+    "apiName": "latios"
+  },
+  {
+    "id": 382,
+    "name": "カイオーガ",
+    "apiName": "kyogre"
+  },
+  {
+    "id": 383,
+    "name": "グラードン",
+    "apiName": "groudon"
+  },
+  {
+    "id": 384,
+    "name": "レックウザ",
+    "apiName": "rayquaza"
+  },
+  {
+    "id": 385,
+    "name": "ジラーチ",
+    "apiName": "jirachi"
+  },
+  {
+    "id": 386,
+    "name": "デオキシス",
+    "apiName": "deoxys"
+  },
+  {
+    "id": 387,
+    "name": "ナエトル",
+    "apiName": "turtwig"
+  },
+  {
+    "id": 388,
+    "name": "ハヤシガメ",
+    "apiName": "grotle"
+  },
+  {
+    "id": 389,
+    "name": "ドダイトス",
+    "apiName": "torterra"
+  },
+  {
+    "id": 390,
+    "name": "ヒコザル",
+    "apiName": "chimchar"
+  },
+  {
+    "id": 391,
+    "name": "モウカザル",
+    "apiName": "monferno"
+  },
+  {
+    "id": 392,
+    "name": "ゴウカザル",
+    "apiName": "infernape"
+  },
+  {
+    "id": 393,
+    "name": "ポッチャマ",
+    "apiName": "piplup"
+  },
+  {
+    "id": 394,
+    "name": "ポッタイシ",
+    "apiName": "prinplup"
+  },
+  {
+    "id": 395,
+    "name": "エンペルト",
+    "apiName": "empoleon"
+  },
+  {
+    "id": 396,
+    "name": "ムックル",
+    "apiName": "starly"
+  },
+  {
+    "id": 397,
+    "name": "ムクバード",
+    "apiName": "staravia"
+  },
+  {
+    "id": 398,
+    "name": "ムクホーク",
+    "apiName": "staraptor"
+  },
+  {
+    "id": 399,
+    "name": "ビッパ",
+    "apiName": "bidoof"
+  },
+  {
+    "id": 400,
+    "name": "ビーダル",
+    "apiName": "bibarel"
+  },
+  {
+    "id": 401,
+    "name": "コロボーシ",
+    "apiName": "kricketot"
+  },
+  {
+    "id": 402,
+    "name": "コロトック",
+    "apiName": "kricketune"
+  },
+  {
+    "id": 403,
+    "name": "コリンク",
+    "apiName": "shinx"
+  },
+  {
+    "id": 404,
+    "name": "ルクシオ",
+    "apiName": "luxio"
+  },
+  {
+    "id": 405,
+    "name": "レントラー",
+    "apiName": "luxray"
+  },
+  {
+    "id": 406,
+    "name": "スボミー",
+    "apiName": "budew"
+  },
+  {
+    "id": 407,
+    "name": "ロズレイド",
+    "apiName": "roserade"
+  },
+  {
+    "id": 408,
+    "name": "ズガイドス",
+    "apiName": "cranidos"
+  },
+  {
+    "id": 409,
+    "name": "ラムパルド",
+    "apiName": "rampardos"
+  },
+  {
+    "id": 410,
+    "name": "タテトプス",
+    "apiName": "shieldon"
+  },
+  {
+    "id": 411,
+    "name": "トリデプス",
+    "apiName": "bastiodon"
+  },
+  {
+    "id": 412,
+    "name": "ミノムッチ",
+    "apiName": "burmy"
+  },
+  {
+    "id": 413,
+    "name": "ミノマダム",
+    "apiName": "wormadam"
+  },
+  {
+    "id": 414,
+    "name": "ガーメイル",
+    "apiName": "mothim"
+  },
+  {
+    "id": 415,
+    "name": "ミツハニー",
+    "apiName": "combee"
+  },
+  {
+    "id": 416,
+    "name": "ビークイン",
+    "apiName": "vespiquen"
+  },
+  {
+    "id": 417,
+    "name": "パチリス",
+    "apiName": "pachirisu"
+  },
+  {
+    "id": 418,
+    "name": "ブイゼル",
+    "apiName": "buizel"
+  },
+  {
+    "id": 419,
+    "name": "フローゼル",
+    "apiName": "floatzel"
+  },
+  {
+    "id": 420,
+    "name": "チェリンボ",
+    "apiName": "cherubi"
+  },
+  {
+    "id": 421,
+    "name": "チェリム",
+    "apiName": "cherrim"
+  },
+  {
+    "id": 422,
+    "name": "カラナクシ",
+    "apiName": "shellos"
+  },
+  {
+    "id": 423,
+    "name": "トリトドン",
+    "apiName": "gastrodon"
+  },
+  {
+    "id": 424,
+    "name": "エテボース",
+    "apiName": "ambipom"
+  },
+  {
+    "id": 425,
+    "name": "フワンテ",
+    "apiName": "drifloon"
+  },
+  {
+    "id": 426,
+    "name": "フワライド",
+    "apiName": "drifblim"
+  },
+  {
+    "id": 427,
+    "name": "ミミロル",
+    "apiName": "buneary"
+  },
+  {
+    "id": 428,
+    "name": "ミミロップ",
+    "apiName": "lopunny"
+  },
+  {
+    "id": 429,
+    "name": "ムウマージ",
+    "apiName": "mismagius"
+  },
+  {
+    "id": 430,
+    "name": "ドンカラス",
+    "apiName": "honchkrow"
+  },
+  {
+    "id": 431,
+    "name": "ニャルマー",
+    "apiName": "glameow"
+  },
+  {
+    "id": 432,
+    "name": "ブニャット",
+    "apiName": "purugly"
+  },
+  {
+    "id": 433,
+    "name": "リーシャン",
+    "apiName": "chingling"
+  },
+  {
+    "id": 434,
+    "name": "スカンプー",
+    "apiName": "stunky"
+  },
+  {
+    "id": 435,
+    "name": "スカタンク",
+    "apiName": "skuntank"
+  },
+  {
+    "id": 436,
+    "name": "ドーミラー",
+    "apiName": "bronzor"
+  },
+  {
+    "id": 437,
+    "name": "ドータクン",
+    "apiName": "bronzong"
+  },
+  {
+    "id": 438,
+    "name": "ウソハチ",
+    "apiName": "bonsly"
+  },
+  {
+    "id": 439,
+    "name": "マネネ",
+    "apiName": "mime-jr"
+  },
+  {
+    "id": 440,
+    "name": "ピンプク",
+    "apiName": "happiny"
+  },
+  {
+    "id": 441,
+    "name": "ペラップ",
+    "apiName": "chatot"
+  },
+  {
+    "id": 442,
+    "name": "ミカルゲ",
+    "apiName": "spiritomb"
+  },
+  {
+    "id": 443,
+    "name": "フカマル",
+    "apiName": "gible"
+  },
+  {
+    "id": 444,
+    "name": "ガバイト",
+    "apiName": "gabite"
+  },
+  {
+    "id": 445,
+    "name": "ガブリアス",
+    "apiName": "garchomp"
+  },
+  {
+    "id": 446,
+    "name": "ゴンベ",
+    "apiName": "munchlax"
+  },
+  {
+    "id": 447,
+    "name": "リオル",
+    "apiName": "riolu"
+  },
+  {
+    "id": 448,
+    "name": "ルカリオ",
+    "apiName": "lucario"
+  },
+  {
+    "id": 449,
+    "name": "ヒポポタス",
+    "apiName": "hippopotas"
+  },
+  {
+    "id": 450,
+    "name": "カバルドン",
+    "apiName": "hippowdon"
+  },
+  {
+    "id": 451,
+    "name": "スコルピ",
+    "apiName": "skorupi"
+  },
+  {
+    "id": 452,
+    "name": "ドラピオン",
+    "apiName": "drapion"
+  },
+  {
+    "id": 453,
+    "name": "グレッグル",
+    "apiName": "croagunk"
+  },
+  {
+    "id": 454,
+    "name": "ドクロッグ",
+    "apiName": "toxicroak"
+  },
+  {
+    "id": 455,
+    "name": "マスキッパ",
+    "apiName": "carnivine"
+  },
+  {
+    "id": 456,
+    "name": "ケイコウオ",
+    "apiName": "finneon"
+  },
+  {
+    "id": 457,
+    "name": "ネオラント",
+    "apiName": "lumineon"
+  },
+  {
+    "id": 458,
+    "name": "タマンタ",
+    "apiName": "mantyke"
+  },
+  {
+    "id": 459,
+    "name": "ユキカブリ",
+    "apiName": "snover"
+  },
+  {
+    "id": 460,
+    "name": "ユキノオー",
+    "apiName": "abomasnow"
+  },
+  {
+    "id": 461,
+    "name": "マニューラ",
+    "apiName": "weavile"
+  },
+  {
+    "id": 462,
+    "name": "ジバコイル",
+    "apiName": "magnezone"
+  },
+  {
+    "id": 463,
+    "name": "ベロベルト",
+    "apiName": "lickilicky"
+  },
+  {
+    "id": 464,
+    "name": "ドサイドン",
+    "apiName": "rhyperior"
+  },
+  {
+    "id": 465,
+    "name": "モジャンボ",
+    "apiName": "tangrowth"
+  },
+  {
+    "id": 466,
+    "name": "エレキブル",
+    "apiName": "electivire"
+  },
+  {
+    "id": 467,
+    "name": "ブーバーン",
+    "apiName": "magmortar"
+  },
+  {
+    "id": 468,
+    "name": "トゲキッス",
+    "apiName": "togekiss"
+  },
+  {
+    "id": 469,
+    "name": "メガヤンマ",
+    "apiName": "yanmega"
+  },
+  {
+    "id": 470,
+    "name": "リーフィア",
+    "apiName": "leafeon"
+  },
+  {
+    "id": 471,
+    "name": "グレイシア",
+    "apiName": "glaceon"
+  },
+  {
+    "id": 472,
+    "name": "グライオン",
+    "apiName": "gliscor"
+  },
+  {
+    "id": 473,
+    "name": "マンムー",
+    "apiName": "mamoswine"
+  },
+  {
+    "id": 474,
+    "name": "ポリゴンＺ",
+    "apiName": "porygon-z"
+  },
+  {
+    "id": 475,
+    "name": "エルレイド",
+    "apiName": "gallade"
+  },
+  {
+    "id": 476,
+    "name": "ダイノーズ",
+    "apiName": "probopass"
+  },
+  {
+    "id": 477,
+    "name": "ヨノワール",
+    "apiName": "dusknoir"
+  },
+  {
+    "id": 478,
+    "name": "ユキメノコ",
+    "apiName": "froslass"
+  },
+  {
+    "id": 479,
+    "name": "ロトム",
+    "apiName": "rotom"
+  },
+  {
+    "id": 480,
+    "name": "ユクシー",
+    "apiName": "uxie"
+  },
+  {
+    "id": 481,
+    "name": "エムリット",
+    "apiName": "mesprit"
+  },
+  {
+    "id": 482,
+    "name": "アグノム",
+    "apiName": "azelf"
+  },
+  {
+    "id": 483,
+    "name": "ディアルガ",
+    "apiName": "dialga"
+  },
+  {
+    "id": 484,
+    "name": "パルキア",
+    "apiName": "palkia"
+  },
+  {
+    "id": 485,
+    "name": "ヒードラン",
+    "apiName": "heatran"
+  },
+  {
+    "id": 486,
+    "name": "レジギガス",
+    "apiName": "regigigas"
+  },
+  {
+    "id": 487,
+    "name": "ギラティナ",
+    "apiName": "giratina"
+  },
+  {
+    "id": 488,
+    "name": "クレセリア",
+    "apiName": "cresselia"
+  },
+  {
+    "id": 489,
+    "name": "フィオネ",
+    "apiName": "phione"
+  },
+  {
+    "id": 490,
+    "name": "マナフィ",
+    "apiName": "manaphy"
+  },
+  {
+    "id": 491,
+    "name": "ダークライ",
+    "apiName": "darkrai"
+  },
+  {
+    "id": 492,
+    "name": "シェイミ",
+    "apiName": "shaymin"
+  },
+  {
+    "id": 493,
+    "name": "アルセウス",
+    "apiName": "arceus"
+  },
+  {
+    "id": 494,
+    "name": "ビクティニ",
+    "apiName": "victini"
+  },
+  {
+    "id": 495,
+    "name": "ツタージャ",
+    "apiName": "snivy"
+  },
+  {
+    "id": 496,
+    "name": "ジャノビー",
+    "apiName": "servine"
+  },
+  {
+    "id": 497,
+    "name": "ジャローダ",
+    "apiName": "serperior"
+  },
+  {
+    "id": 498,
+    "name": "ポカブ",
+    "apiName": "tepig"
+  },
+  {
+    "id": 499,
+    "name": "チャオブー",
+    "apiName": "pignite"
+  },
+  {
+    "id": 500,
+    "name": "エンブオー",
+    "apiName": "emboar"
+  },
+  {
+    "id": 501,
+    "name": "ミジュマル",
+    "apiName": "oshawott"
+  },
+  {
+    "id": 502,
+    "name": "フタチマル",
+    "apiName": "dewott"
+  },
+  {
+    "id": 503,
+    "name": "ダイケンキ",
+    "apiName": "samurott"
+  },
+  {
+    "id": 504,
+    "name": "ミネズミ",
+    "apiName": "patrat"
+  },
+  {
+    "id": 505,
+    "name": "ミルホッグ",
+    "apiName": "watchog"
+  },
+  {
+    "id": 506,
+    "name": "ヨーテリー",
+    "apiName": "lillipup"
+  },
+  {
+    "id": 507,
+    "name": "ハーデリア",
+    "apiName": "herdier"
+  },
+  {
+    "id": 508,
+    "name": "ムーランド",
+    "apiName": "stoutland"
+  },
+  {
+    "id": 509,
+    "name": "チョロネコ",
+    "apiName": "purrloin"
+  },
+  {
+    "id": 510,
+    "name": "レパルダス",
+    "apiName": "liepard"
+  },
+  {
+    "id": 511,
+    "name": "ヤナップ",
+    "apiName": "pansage"
+  },
+  {
+    "id": 512,
+    "name": "ヤナッキー",
+    "apiName": "simisage"
+  },
+  {
+    "id": 513,
+    "name": "バオップ",
+    "apiName": "pansear"
+  },
+  {
+    "id": 514,
+    "name": "バオッキー",
+    "apiName": "simisear"
+  },
+  {
+    "id": 515,
+    "name": "ヒヤップ",
+    "apiName": "panpour"
+  },
+  {
+    "id": 516,
+    "name": "ヒヤッキー",
+    "apiName": "simipour"
+  },
+  {
+    "id": 517,
+    "name": "ムンナ",
+    "apiName": "munna"
+  },
+  {
+    "id": 518,
+    "name": "ムシャーナ",
+    "apiName": "musharna"
+  },
+  {
+    "id": 519,
+    "name": "マメパト",
+    "apiName": "pidove"
+  },
+  {
+    "id": 520,
+    "name": "ハトーボー",
+    "apiName": "tranquill"
+  },
+  {
+    "id": 521,
+    "name": "ケンホロウ",
+    "apiName": "unfezant"
+  },
+  {
+    "id": 522,
+    "name": "シママ",
+    "apiName": "blitzle"
+  },
+  {
+    "id": 523,
+    "name": "ゼブライカ",
+    "apiName": "zebstrika"
+  },
+  {
+    "id": 524,
+    "name": "ダンゴロ",
+    "apiName": "roggenrola"
+  },
+  {
+    "id": 525,
+    "name": "ガントル",
+    "apiName": "boldore"
+  },
+  {
+    "id": 526,
+    "name": "ギガイアス",
+    "apiName": "gigalith"
+  },
+  {
+    "id": 527,
+    "name": "コロモリ",
+    "apiName": "woobat"
+  },
+  {
+    "id": 528,
+    "name": "ココロモリ",
+    "apiName": "swoobat"
+  },
+  {
+    "id": 529,
+    "name": "モグリュー",
+    "apiName": "drilbur"
+  },
+  {
+    "id": 530,
+    "name": "ドリュウズ",
+    "apiName": "excadrill"
+  },
+  {
+    "id": 531,
+    "name": "タブンネ",
+    "apiName": "audino"
+  },
+  {
+    "id": 532,
+    "name": "ドッコラー",
+    "apiName": "timburr"
+  },
+  {
+    "id": 533,
+    "name": "ドテッコツ",
+    "apiName": "gurdurr"
+  },
+  {
+    "id": 534,
+    "name": "ローブシン",
+    "apiName": "conkeldurr"
+  },
+  {
+    "id": 535,
+    "name": "オタマロ",
+    "apiName": "tympole"
+  },
+  {
+    "id": 536,
+    "name": "ガマガル",
+    "apiName": "palpitoad"
+  },
+  {
+    "id": 537,
+    "name": "ガマゲロゲ",
+    "apiName": "seismitoad"
+  },
+  {
+    "id": 538,
+    "name": "ナゲキ",
+    "apiName": "throh"
+  },
+  {
+    "id": 539,
+    "name": "ダゲキ",
+    "apiName": "sawk"
+  },
+  {
+    "id": 540,
+    "name": "クルミル",
+    "apiName": "sewaddle"
+  },
+  {
+    "id": 541,
+    "name": "クルマユ",
+    "apiName": "swadloon"
+  },
+  {
+    "id": 542,
+    "name": "ハハコモリ",
+    "apiName": "leavanny"
+  },
+  {
+    "id": 543,
+    "name": "フシデ",
+    "apiName": "venipede"
+  },
+  {
+    "id": 544,
+    "name": "ホイーガ",
+    "apiName": "whirlipede"
+  },
+  {
+    "id": 545,
+    "name": "ペンドラー",
+    "apiName": "scolipede"
+  },
+  {
+    "id": 546,
+    "name": "モンメン",
+    "apiName": "cottonee"
+  },
+  {
+    "id": 547,
+    "name": "エルフーン",
+    "apiName": "whimsicott"
+  },
+  {
+    "id": 548,
+    "name": "チュリネ",
+    "apiName": "petilil"
+  },
+  {
+    "id": 549,
+    "name": "ドレディア",
+    "apiName": "lilligant"
+  },
+  {
+    "id": 550,
+    "name": "バスラオ",
+    "apiName": "basculin"
+  },
+  {
+    "id": 551,
+    "name": "メグロコ",
+    "apiName": "sandile"
+  },
+  {
+    "id": 552,
+    "name": "ワルビル",
+    "apiName": "krokorok"
+  },
+  {
+    "id": 553,
+    "name": "ワルビアル",
+    "apiName": "krookodile"
+  },
+  {
+    "id": 554,
+    "name": "ダルマッカ",
+    "apiName": "darumaka"
+  },
+  {
+    "id": 555,
+    "name": "ヒヒダルマ",
+    "apiName": "darmanitan"
+  },
+  {
+    "id": 556,
+    "name": "マラカッチ",
+    "apiName": "maractus"
+  },
+  {
+    "id": 557,
+    "name": "イシズマイ",
+    "apiName": "dwebble"
+  },
+  {
+    "id": 558,
+    "name": "イワパレス",
+    "apiName": "crustle"
+  },
+  {
+    "id": 559,
+    "name": "ズルッグ",
+    "apiName": "scraggy"
+  },
+  {
+    "id": 560,
+    "name": "ズルズキン",
+    "apiName": "scrafty"
+  },
+  {
+    "id": 561,
+    "name": "シンボラー",
+    "apiName": "sigilyph"
+  },
+  {
+    "id": 562,
+    "name": "デスマス",
+    "apiName": "yamask"
+  },
+  {
+    "id": 563,
+    "name": "デスカーン",
+    "apiName": "cofagrigus"
+  },
+  {
+    "id": 564,
+    "name": "プロトーガ",
+    "apiName": "tirtouga"
+  },
+  {
+    "id": 565,
+    "name": "アバゴーラ",
+    "apiName": "carracosta"
+  },
+  {
+    "id": 566,
+    "name": "アーケン",
+    "apiName": "archen"
+  },
+  {
+    "id": 567,
+    "name": "アーケオス",
+    "apiName": "archeops"
+  },
+  {
+    "id": 568,
+    "name": "ヤブクロン",
+    "apiName": "trubbish"
+  },
+  {
+    "id": 569,
+    "name": "ダストダス",
+    "apiName": "garbodor"
+  },
+  {
+    "id": 570,
+    "name": "ゾロア",
+    "apiName": "zorua"
+  },
+  {
+    "id": 571,
+    "name": "ゾロアーク",
+    "apiName": "zoroark"
+  },
+  {
+    "id": 572,
+    "name": "チラーミィ",
+    "apiName": "minccino"
+  },
+  {
+    "id": 573,
+    "name": "チラチーノ",
+    "apiName": "cinccino"
+  },
+  {
+    "id": 574,
+    "name": "ゴチム",
+    "apiName": "gothita"
+  },
+  {
+    "id": 575,
+    "name": "ゴチミル",
+    "apiName": "gothorita"
+  },
+  {
+    "id": 576,
+    "name": "ゴチルゼル",
+    "apiName": "gothitelle"
+  },
+  {
+    "id": 577,
+    "name": "ユニラン",
+    "apiName": "solosis"
+  },
+  {
+    "id": 578,
+    "name": "ダブラン",
+    "apiName": "duosion"
+  },
+  {
+    "id": 579,
+    "name": "ランクルス",
+    "apiName": "reuniclus"
+  },
+  {
+    "id": 580,
+    "name": "コアルヒー",
+    "apiName": "ducklett"
+  },
+  {
+    "id": 581,
+    "name": "スワンナ",
+    "apiName": "swanna"
+  },
+  {
+    "id": 582,
+    "name": "バニプッチ",
+    "apiName": "vanillite"
+  },
+  {
+    "id": 583,
+    "name": "バニリッチ",
+    "apiName": "vanillish"
+  },
+  {
+    "id": 584,
+    "name": "バイバニラ",
+    "apiName": "vanilluxe"
+  },
+  {
+    "id": 585,
+    "name": "シキジカ",
+    "apiName": "deerling"
+  },
+  {
+    "id": 586,
+    "name": "メブキジカ",
+    "apiName": "sawsbuck"
+  },
+  {
+    "id": 587,
+    "name": "エモンガ",
+    "apiName": "emolga"
+  },
+  {
+    "id": 588,
+    "name": "カブルモ",
+    "apiName": "karrablast"
+  },
+  {
+    "id": 589,
+    "name": "シュバルゴ",
+    "apiName": "escavalier"
+  },
+  {
+    "id": 590,
+    "name": "タマゲタケ",
+    "apiName": "foongus"
+  },
+  {
+    "id": 591,
+    "name": "モロバレル",
+    "apiName": "amoonguss"
+  },
+  {
+    "id": 592,
+    "name": "プルリル",
+    "apiName": "frillish"
+  },
+  {
+    "id": 593,
+    "name": "ブルンゲル",
+    "apiName": "jellicent"
+  },
+  {
+    "id": 594,
+    "name": "ママンボウ",
+    "apiName": "alomomola"
+  },
+  {
+    "id": 595,
+    "name": "バチュル",
+    "apiName": "joltik"
+  },
+  {
+    "id": 596,
+    "name": "デンチュラ",
+    "apiName": "galvantula"
+  },
+  {
+    "id": 597,
+    "name": "テッシード",
+    "apiName": "ferroseed"
+  },
+  {
+    "id": 598,
+    "name": "ナットレイ",
+    "apiName": "ferrothorn"
+  },
+  {
+    "id": 599,
+    "name": "ギアル",
+    "apiName": "klink"
+  },
+  {
+    "id": 600,
+    "name": "ギギアル",
+    "apiName": "klang"
+  },
+  {
+    "id": 601,
+    "name": "ギギギアル",
+    "apiName": "klinklang"
+  },
+  {
+    "id": 602,
+    "name": "シビシラス",
+    "apiName": "tynamo"
+  },
+  {
+    "id": 603,
+    "name": "シビビール",
+    "apiName": "eelektrik"
+  },
+  {
+    "id": 604,
+    "name": "シビルドン",
+    "apiName": "eelektross"
+  },
+  {
+    "id": 605,
+    "name": "リグレー",
+    "apiName": "elgyem"
+  },
+  {
+    "id": 606,
+    "name": "オーベム",
+    "apiName": "beheeyem"
+  },
+  {
+    "id": 607,
+    "name": "ヒトモシ",
+    "apiName": "litwick"
+  },
+  {
+    "id": 608,
+    "name": "ランプラー",
+    "apiName": "lampent"
+  },
+  {
+    "id": 609,
+    "name": "シャンデラ",
+    "apiName": "chandelure"
+  },
+  {
+    "id": 610,
+    "name": "キバゴ",
+    "apiName": "axew"
+  },
+  {
+    "id": 611,
+    "name": "オノンド",
+    "apiName": "fraxure"
+  },
+  {
+    "id": 612,
+    "name": "オノノクス",
+    "apiName": "haxorus"
+  },
+  {
+    "id": 613,
+    "name": "クマシュン",
+    "apiName": "cubchoo"
+  },
+  {
+    "id": 614,
+    "name": "ツンベアー",
+    "apiName": "beartic"
+  },
+  {
+    "id": 615,
+    "name": "フリージオ",
+    "apiName": "cryogonal"
+  },
+  {
+    "id": 616,
+    "name": "チョボマキ",
+    "apiName": "shelmet"
+  },
+  {
+    "id": 617,
+    "name": "アギルダー",
+    "apiName": "accelgor"
+  },
+  {
+    "id": 618,
+    "name": "マッギョ",
+    "apiName": "stunfisk"
+  },
+  {
+    "id": 619,
+    "name": "コジョフー",
+    "apiName": "mienfoo"
+  },
+  {
+    "id": 620,
+    "name": "コジョンド",
+    "apiName": "mienshao"
+  },
+  {
+    "id": 621,
+    "name": "クリムガン",
+    "apiName": "druddigon"
+  },
+  {
+    "id": 622,
+    "name": "ゴビット",
+    "apiName": "golett"
+  },
+  {
+    "id": 623,
+    "name": "ゴルーグ",
+    "apiName": "golurk"
+  },
+  {
+    "id": 624,
+    "name": "コマタナ",
+    "apiName": "pawniard"
+  },
+  {
+    "id": 625,
+    "name": "キリキザン",
+    "apiName": "bisharp"
+  },
+  {
+    "id": 626,
+    "name": "バッフロン",
+    "apiName": "bouffalant"
+  },
+  {
+    "id": 627,
+    "name": "ワシボン",
+    "apiName": "rufflet"
+  },
+  {
+    "id": 628,
+    "name": "ウォーグル",
+    "apiName": "braviary"
+  },
+  {
+    "id": 629,
+    "name": "バルチャイ",
+    "apiName": "vullaby"
+  },
+  {
+    "id": 630,
+    "name": "バルジーナ",
+    "apiName": "mandibuzz"
+  },
+  {
+    "id": 631,
+    "name": "クイタラン",
+    "apiName": "heatmor"
+  },
+  {
+    "id": 632,
+    "name": "アイアント",
+    "apiName": "durant"
+  },
+  {
+    "id": 633,
+    "name": "モノズ",
+    "apiName": "deino"
+  },
+  {
+    "id": 634,
+    "name": "ジヘッド",
+    "apiName": "zweilous"
+  },
+  {
+    "id": 635,
+    "name": "サザンドラ",
+    "apiName": "hydreigon"
+  },
+  {
+    "id": 636,
+    "name": "メラルバ",
+    "apiName": "larvesta"
+  },
+  {
+    "id": 637,
+    "name": "ウルガモス",
+    "apiName": "volcarona"
+  },
+  {
+    "id": 638,
+    "name": "コバルオン",
+    "apiName": "cobalion"
+  },
+  {
+    "id": 639,
+    "name": "テラキオン",
+    "apiName": "terrakion"
+  },
+  {
+    "id": 640,
+    "name": "ビリジオン",
+    "apiName": "virizion"
+  },
+  {
+    "id": 641,
+    "name": "トルネロス",
+    "apiName": "tornadus"
+  },
+  {
+    "id": 642,
+    "name": "ボルトロス",
+    "apiName": "thundurus"
+  },
+  {
+    "id": 643,
+    "name": "レシラム",
+    "apiName": "reshiram"
+  },
+  {
+    "id": 644,
+    "name": "ゼクロム",
+    "apiName": "zekrom"
+  },
+  {
+    "id": 645,
+    "name": "ランドロス",
+    "apiName": "landorus"
+  },
+  {
+    "id": 646,
+    "name": "キュレム",
+    "apiName": "kyurem"
+  },
+  {
+    "id": 647,
+    "name": "ケルディオ",
+    "apiName": "keldeo"
+  },
+  {
+    "id": 648,
+    "name": "メロエッタ",
+    "apiName": "meloetta"
+  },
+  {
+    "id": 649,
+    "name": "ゲノセクト",
+    "apiName": "genesect"
+  },
+  {
+    "id": 650,
+    "name": "ハリマロン",
+    "apiName": "chespin"
+  },
+  {
+    "id": 651,
+    "name": "ハリボーグ",
+    "apiName": "quilladin"
+  },
+  {
+    "id": 652,
+    "name": "ブリガロン",
+    "apiName": "chesnaught"
+  },
+  {
+    "id": 653,
+    "name": "フォッコ",
+    "apiName": "fennekin"
+  },
+  {
+    "id": 654,
+    "name": "テールナー",
+    "apiName": "braixen"
+  },
+  {
+    "id": 655,
+    "name": "マフォクシー",
+    "apiName": "delphox"
+  },
+  {
+    "id": 656,
+    "name": "ケロマツ",
+    "apiName": "froakie"
+  },
+  {
+    "id": 657,
+    "name": "ゲコガシラ",
+    "apiName": "frogadier"
+  },
+  {
+    "id": 658,
+    "name": "ゲッコウガ",
+    "apiName": "greninja"
+  },
+  {
+    "id": 659,
+    "name": "ホルビー",
+    "apiName": "bunnelby"
+  },
+  {
+    "id": 660,
+    "name": "ホルード",
+    "apiName": "diggersby"
+  },
+  {
+    "id": 661,
+    "name": "ヤヤコマ",
+    "apiName": "fletchling"
+  },
+  {
+    "id": 662,
+    "name": "ヒノヤコマ",
+    "apiName": "fletchinder"
+  },
+  {
+    "id": 663,
+    "name": "ファイアロー",
+    "apiName": "talonflame"
+  },
+  {
+    "id": 664,
+    "name": "コフキムシ",
+    "apiName": "scatterbug"
+  },
+  {
+    "id": 665,
+    "name": "コフーライ",
+    "apiName": "spewpa"
+  },
+  {
+    "id": 666,
+    "name": "ビビヨン",
+    "apiName": "vivillon"
+  },
+  {
+    "id": 667,
+    "name": "シシコ",
+    "apiName": "litleo"
+  },
+  {
+    "id": 668,
+    "name": "カエンジシ",
+    "apiName": "pyroar"
+  },
+  {
+    "id": 669,
+    "name": "フラベベ",
+    "apiName": "flabebe"
+  },
+  {
+    "id": 670,
+    "name": "フラエッテ",
+    "apiName": "floette"
+  },
+  {
+    "id": 671,
+    "name": "フラージェス",
+    "apiName": "florges"
+  },
+  {
+    "id": 672,
+    "name": "メェークル",
+    "apiName": "skiddo"
+  },
+  {
+    "id": 673,
+    "name": "ゴーゴート",
+    "apiName": "gogoat"
+  },
+  {
+    "id": 674,
+    "name": "ヤンチャム",
+    "apiName": "pancham"
+  },
+  {
+    "id": 675,
+    "name": "ゴロンダ",
+    "apiName": "pangoro"
+  },
+  {
+    "id": 676,
+    "name": "トリミアン",
+    "apiName": "furfrou"
+  },
+  {
+    "id": 677,
+    "name": "ニャスパー",
+    "apiName": "espurr"
+  },
+  {
+    "id": 678,
+    "name": "ニャオニクス",
+    "apiName": "meowstic"
+  },
+  {
+    "id": 679,
+    "name": "ヒトツキ",
+    "apiName": "honedge"
+  },
+  {
+    "id": 680,
+    "name": "ニダンギル",
+    "apiName": "doublade"
+  },
+  {
+    "id": 681,
+    "name": "ギルガルド",
+    "apiName": "aegislash"
+  },
+  {
+    "id": 682,
+    "name": "シュシュプ",
+    "apiName": "spritzee"
+  },
+  {
+    "id": 683,
+    "name": "フレフワン",
+    "apiName": "aromatisse"
+  },
+  {
+    "id": 684,
+    "name": "ペロッパフ",
+    "apiName": "swirlix"
+  },
+  {
+    "id": 685,
+    "name": "ペロリーム",
+    "apiName": "slurpuff"
+  },
+  {
+    "id": 686,
+    "name": "マーイーカ",
+    "apiName": "inkay"
+  },
+  {
+    "id": 687,
+    "name": "カラマネロ",
+    "apiName": "malamar"
+  },
+  {
+    "id": 688,
+    "name": "カメテテ",
+    "apiName": "binacle"
+  },
+  {
+    "id": 689,
+    "name": "ガメノデス",
+    "apiName": "barbaracle"
+  },
+  {
+    "id": 690,
+    "name": "クズモー",
+    "apiName": "skrelp"
+  },
+  {
+    "id": 691,
+    "name": "ドラミドロ",
+    "apiName": "dragalge"
+  },
+  {
+    "id": 692,
+    "name": "ウデッポウ",
+    "apiName": "clauncher"
+  },
+  {
+    "id": 693,
+    "name": "ブロスター",
+    "apiName": "clawitzer"
+  },
+  {
+    "id": 694,
+    "name": "エリキテル",
+    "apiName": "helioptile"
+  },
+  {
+    "id": 695,
+    "name": "エレザード",
+    "apiName": "heliolisk"
+  },
+  {
+    "id": 696,
+    "name": "チゴラス",
+    "apiName": "tyrunt"
+  },
+  {
+    "id": 697,
+    "name": "ガチゴラス",
+    "apiName": "tyrantrum"
+  },
+  {
+    "id": 698,
+    "name": "アマルス",
+    "apiName": "amaura"
+  },
+  {
+    "id": 699,
+    "name": "アマルルガ",
+    "apiName": "aurorus"
+  },
+  {
+    "id": 700,
+    "name": "ニンフィア",
+    "apiName": "sylveon"
+  },
+  {
+    "id": 701,
+    "name": "ルチャブル",
+    "apiName": "hawlucha"
+  },
+  {
+    "id": 702,
+    "name": "デデンネ",
+    "apiName": "dedenne"
+  },
+  {
+    "id": 703,
+    "name": "メレシー",
+    "apiName": "carbink"
+  },
+  {
+    "id": 704,
+    "name": "ヌメラ",
+    "apiName": "goomy"
+  },
+  {
+    "id": 705,
+    "name": "ヌメイル",
+    "apiName": "sliggoo"
+  },
+  {
+    "id": 706,
+    "name": "ヌメルゴン",
+    "apiName": "goodra"
+  },
+  {
+    "id": 707,
+    "name": "クレッフィ",
+    "apiName": "klefki"
+  },
+  {
+    "id": 708,
+    "name": "ボクレー",
+    "apiName": "phantump"
+  },
+  {
+    "id": 709,
+    "name": "オーロット",
+    "apiName": "trevenant"
+  },
+  {
+    "id": 710,
+    "name": "バケッチャ",
+    "apiName": "pumpkaboo"
+  },
+  {
+    "id": 711,
+    "name": "パンプジン",
+    "apiName": "gourgeist"
+  },
+  {
+    "id": 712,
+    "name": "カチコール",
+    "apiName": "bergmite"
+  },
+  {
+    "id": 713,
+    "name": "クレベース",
+    "apiName": "avalugg"
+  },
+  {
+    "id": 714,
+    "name": "オンバット",
+    "apiName": "noibat"
+  },
+  {
+    "id": 715,
+    "name": "オンバーン",
+    "apiName": "noivern"
+  },
+  {
+    "id": 716,
+    "name": "ゼルネアス",
+    "apiName": "xerneas"
+  },
+  {
+    "id": 717,
+    "name": "イベルタル",
+    "apiName": "yveltal"
+  },
+  {
+    "id": 718,
+    "name": "ジガルデ",
+    "apiName": "zygarde"
+  },
+  {
+    "id": 719,
+    "name": "ディアンシー",
+    "apiName": "diancie"
+  },
+  {
+    "id": 720,
+    "name": "フーパ",
+    "apiName": "hoopa"
+  },
+  {
+    "id": 721,
+    "name": "ボルケニオン",
+    "apiName": "volcanion"
+  },
+  {
+    "id": 722,
+    "name": "モクロー",
+    "apiName": "rowlet"
+  },
+  {
+    "id": 723,
+    "name": "フクスロー",
+    "apiName": "dartrix"
+  },
+  {
+    "id": 724,
+    "name": "ジュナイパー",
+    "apiName": "decidueye"
+  },
+  {
+    "id": 725,
+    "name": "ニャビー",
+    "apiName": "litten"
+  },
+  {
+    "id": 726,
+    "name": "ニャヒート",
+    "apiName": "torracat"
+  },
+  {
+    "id": 727,
+    "name": "ガオガエン",
+    "apiName": "incineroar"
+  },
+  {
+    "id": 728,
+    "name": "アシマリ",
+    "apiName": "popplio"
+  },
+  {
+    "id": 729,
+    "name": "オシャマリ",
+    "apiName": "brionne"
+  },
+  {
+    "id": 730,
+    "name": "アシレーヌ",
+    "apiName": "primarina"
+  },
+  {
+    "id": 731,
+    "name": "ツツケラ",
+    "apiName": "pikipek"
+  },
+  {
+    "id": 732,
+    "name": "ケララッパ",
+    "apiName": "trumbeak"
+  },
+  {
+    "id": 733,
+    "name": "ドデカバシ",
+    "apiName": "toucannon"
+  },
+  {
+    "id": 734,
+    "name": "ヤングース",
+    "apiName": "yungoos"
+  },
+  {
+    "id": 735,
+    "name": "デカグース",
+    "apiName": "gumshoos"
+  },
+  {
+    "id": 736,
+    "name": "アゴジムシ",
+    "apiName": "grubbin"
+  },
+  {
+    "id": 737,
+    "name": "デンヂムシ",
+    "apiName": "charjabug"
+  },
+  {
+    "id": 738,
+    "name": "クワガノン",
+    "apiName": "vikavolt"
+  },
+  {
+    "id": 739,
+    "name": "マケンカニ",
+    "apiName": "crabrawler"
+  },
+  {
+    "id": 740,
+    "name": "ケケンカニ",
+    "apiName": "crabominable"
+  },
+  {
+    "id": 741,
+    "name": "オドリドリ",
+    "apiName": "oricorio"
+  },
+  {
+    "id": 742,
+    "name": "アブリー",
+    "apiName": "cutiefly"
+  },
+  {
+    "id": 743,
+    "name": "アブリボン",
+    "apiName": "ribombee"
+  },
+  {
+    "id": 744,
+    "name": "イワンコ",
+    "apiName": "rockruff"
+  },
+  {
+    "id": 745,
+    "name": "ルガルガン",
+    "apiName": "lycanroc"
+  },
+  {
+    "id": 746,
+    "name": "ヨワシ",
+    "apiName": "wishiwashi"
+  },
+  {
+    "id": 747,
+    "name": "ヒドイデ",
+    "apiName": "mareanie"
+  },
+  {
+    "id": 748,
+    "name": "ドヒドイデ",
+    "apiName": "toxapex"
+  },
+  {
+    "id": 749,
+    "name": "ドロバンコ",
+    "apiName": "mudbray"
+  },
+  {
+    "id": 750,
+    "name": "バンバドロ",
+    "apiName": "mudsdale"
+  },
+  {
+    "id": 751,
+    "name": "シズクモ",
+    "apiName": "dewpider"
+  },
+  {
+    "id": 752,
+    "name": "オニシズクモ",
+    "apiName": "araquanid"
+  },
+  {
+    "id": 753,
+    "name": "カリキリ",
+    "apiName": "fomantis"
+  },
+  {
+    "id": 754,
+    "name": "ラランテス",
+    "apiName": "lurantis"
+  },
+  {
+    "id": 755,
+    "name": "ネマシュ",
+    "apiName": "morelull"
+  },
+  {
+    "id": 756,
+    "name": "マシェード",
+    "apiName": "shiinotic"
+  },
+  {
+    "id": 757,
+    "name": "ヤトウモリ",
+    "apiName": "salandit"
+  },
+  {
+    "id": 758,
+    "name": "エンニュート",
+    "apiName": "salazzle"
+  },
+  {
+    "id": 759,
+    "name": "ヌイコグマ",
+    "apiName": "stufful"
+  },
+  {
+    "id": 760,
+    "name": "キテルグマ",
+    "apiName": "bewear"
+  },
+  {
+    "id": 761,
+    "name": "アマカジ",
+    "apiName": "bounsweet"
+  },
+  {
+    "id": 762,
+    "name": "アママイコ",
+    "apiName": "steenee"
+  },
+  {
+    "id": 763,
+    "name": "アマージョ",
+    "apiName": "tsareena"
+  },
+  {
+    "id": 764,
+    "name": "キュワワー",
+    "apiName": "comfey"
+  },
+  {
+    "id": 765,
+    "name": "ヤレユータン",
+    "apiName": "oranguru"
+  },
+  {
+    "id": 766,
+    "name": "ナゲツケサル",
+    "apiName": "passimian"
+  },
+  {
+    "id": 767,
+    "name": "コソクムシ",
+    "apiName": "wimpod"
+  },
+  {
+    "id": 768,
+    "name": "グソクムシャ",
+    "apiName": "golisopod"
+  },
+  {
+    "id": 769,
+    "name": "スナバァ",
+    "apiName": "sandygast"
+  },
+  {
+    "id": 770,
+    "name": "シロデスナ",
+    "apiName": "palossand"
+  },
+  {
+    "id": 771,
+    "name": "ナマコブシ",
+    "apiName": "pyukumuku"
+  },
+  {
+    "id": 772,
+    "name": "タイプ：ヌル",
+    "apiName": "type-null"
+  },
+  {
+    "id": 773,
+    "name": "シルヴァディ",
+    "apiName": "silvally"
+  },
+  {
+    "id": 774,
+    "name": "メテノ",
+    "apiName": "minior"
+  },
+  {
+    "id": 775,
+    "name": "ネッコアラ",
+    "apiName": "komala"
+  },
+  {
+    "id": 776,
+    "name": "バクガメス",
+    "apiName": "turtonator"
+  },
+  {
+    "id": 777,
+    "name": "トゲデマル",
+    "apiName": "togedemaru"
+  },
+  {
+    "id": 778,
+    "name": "ミミッキュ",
+    "apiName": "mimikyu"
+  },
+  {
+    "id": 779,
+    "name": "ハギギシリ",
+    "apiName": "bruxish"
+  },
+  {
+    "id": 780,
+    "name": "ジジーロン",
+    "apiName": "drampa"
+  },
+  {
+    "id": 781,
+    "name": "ダダリン",
+    "apiName": "dhelmise"
+  },
+  {
+    "id": 782,
+    "name": "ジャラコ",
+    "apiName": "jangmo-o"
+  },
+  {
+    "id": 783,
+    "name": "ジャランゴ",
+    "apiName": "hakamo-o"
+  },
+  {
+    "id": 784,
+    "name": "ジャラランガ",
+    "apiName": "kommo-o"
+  },
+  {
+    "id": 785,
+    "name": "カプ・コケコ",
+    "apiName": "tapu-koko"
+  },
+  {
+    "id": 786,
+    "name": "カプ・テテフ",
+    "apiName": "tapu-lele"
+  },
+  {
+    "id": 787,
+    "name": "カプ・ブルル",
+    "apiName": "tapu-bulu"
+  },
+  {
+    "id": 788,
+    "name": "カプ・レヒレ",
+    "apiName": "tapu-fini"
+  },
+  {
+    "id": 789,
+    "name": "コスモッグ",
+    "apiName": "cosmog"
+  },
+  {
+    "id": 790,
+    "name": "コスモウム",
+    "apiName": "cosmoem"
+  },
+  {
+    "id": 791,
+    "name": "ソルガレオ",
+    "apiName": "solgaleo"
+  },
+  {
+    "id": 792,
+    "name": "ルナアーラ",
+    "apiName": "lunala"
+  },
+  {
+    "id": 793,
+    "name": "ウツロイド",
+    "apiName": "nihilego"
+  },
+  {
+    "id": 794,
+    "name": "マッシブーン",
+    "apiName": "buzzwole"
+  },
+  {
+    "id": 795,
+    "name": "フェローチェ",
+    "apiName": "pheromosa"
+  },
+  {
+    "id": 796,
+    "name": "デンジュモク",
+    "apiName": "xurkitree"
+  },
+  {
+    "id": 797,
+    "name": "テッカグヤ",
+    "apiName": "celesteela"
+  },
+  {
+    "id": 798,
+    "name": "カミツルギ",
+    "apiName": "kartana"
+  },
+  {
+    "id": 799,
+    "name": "アクジキング",
+    "apiName": "guzzlord"
+  },
+  {
+    "id": 800,
+    "name": "ネクロズマ",
+    "apiName": "necrozma"
+  },
+  {
+    "id": 801,
+    "name": "マギアナ",
+    "apiName": "magearna"
+  },
+  {
+    "id": 802,
+    "name": "マーシャドー",
+    "apiName": "marshadow"
+  },
+  {
+    "id": 803,
+    "name": "ベベノム",
+    "apiName": "poipole"
+  },
+  {
+    "id": 804,
+    "name": "アーゴヨン",
+    "apiName": "naganadel"
+  },
+  {
+    "id": 805,
+    "name": "ツンデツンデ",
+    "apiName": "stakataka"
+  },
+  {
+    "id": 806,
+    "name": "ズガドーン",
+    "apiName": "blacephalon"
+  },
+  {
+    "id": 807,
+    "name": "ゼラオラ",
+    "apiName": "zeraora"
+  },
+  {
+    "id": 808,
+    "name": "メルタン",
+    "apiName": "meltan"
+  },
+  {
+    "id": 809,
+    "name": "メルメタル",
+    "apiName": "melmetal"
+  },
+  {
+    "id": 810,
+    "name": "サルノリ",
+    "apiName": "grookey"
+  },
+  {
+    "id": 811,
+    "name": "バチンキー",
+    "apiName": "thwackey"
+  },
+  {
+    "id": 812,
+    "name": "ゴリランダー",
+    "apiName": "rillaboom"
+  },
+  {
+    "id": 813,
+    "name": "ヒバニー",
+    "apiName": "scorbunny"
+  },
+  {
+    "id": 814,
+    "name": "ラビフット",
+    "apiName": "raboot"
+  },
+  {
+    "id": 815,
+    "name": "エースバーン",
+    "apiName": "cinderace"
+  },
+  {
+    "id": 816,
+    "name": "メッソン",
+    "apiName": "sobble"
+  },
+  {
+    "id": 817,
+    "name": "ジメレオン",
+    "apiName": "drizzile"
+  },
+  {
+    "id": 818,
+    "name": "インテレオン",
+    "apiName": "inteleon"
+  },
+  {
+    "id": 819,
+    "name": "ホシガリス",
+    "apiName": "skwovet"
+  },
+  {
+    "id": 820,
+    "name": "ヨクバリス",
+    "apiName": "greedent"
+  },
+  {
+    "id": 821,
+    "name": "ココガラ",
+    "apiName": "rookidee"
+  },
+  {
+    "id": 822,
+    "name": "アオガラス",
+    "apiName": "corvisquire"
+  },
+  {
+    "id": 823,
+    "name": "アーマーガア",
+    "apiName": "corviknight"
+  },
+  {
+    "id": 824,
+    "name": "サッチムシ",
+    "apiName": "blipbug"
+  },
+  {
+    "id": 825,
+    "name": "レドームシ",
+    "apiName": "dottler"
+  },
+  {
+    "id": 826,
+    "name": "イオルブ",
+    "apiName": "orbeetle"
+  },
+  {
+    "id": 827,
+    "name": "クスネ",
+    "apiName": "nickit"
+  },
+  {
+    "id": 828,
+    "name": "フォクスライ",
+    "apiName": "thievul"
+  },
+  {
+    "id": 829,
+    "name": "ヒメンカ",
+    "apiName": "gossifleur"
+  },
+  {
+    "id": 830,
+    "name": "ワタシラガ",
+    "apiName": "eldegoss"
+  },
+  {
+    "id": 831,
+    "name": "ウールー",
+    "apiName": "wooloo"
+  },
+  {
+    "id": 832,
+    "name": "バイウールー",
+    "apiName": "dubwool"
+  },
+  {
+    "id": 833,
+    "name": "カムカメ",
+    "apiName": "chewtle"
+  },
+  {
+    "id": 834,
+    "name": "カジリガメ",
+    "apiName": "drednaw"
+  },
+  {
+    "id": 835,
+    "name": "ワンパチ",
+    "apiName": "yamper"
+  },
+  {
+    "id": 836,
+    "name": "パルスワン",
+    "apiName": "boltund"
+  },
+  {
+    "id": 837,
+    "name": "タンドン",
+    "apiName": "rolycoly"
+  },
+  {
+    "id": 838,
+    "name": "トロッゴン",
+    "apiName": "carkol"
+  },
+  {
+    "id": 839,
+    "name": "セキタンザン",
+    "apiName": "coalossal"
+  },
+  {
+    "id": 840,
+    "name": "カジッチュ",
+    "apiName": "applin"
+  },
+  {
+    "id": 841,
+    "name": "アップリュー",
+    "apiName": "flapple"
+  },
+  {
+    "id": 842,
+    "name": "タルップル",
+    "apiName": "appletun"
+  },
+  {
+    "id": 843,
+    "name": "スナヘビ",
+    "apiName": "silicobra"
+  },
+  {
+    "id": 844,
+    "name": "サダイジャ",
+    "apiName": "sandaconda"
+  },
+  {
+    "id": 845,
+    "name": "ウッウ",
+    "apiName": "cramorant"
+  },
+  {
+    "id": 846,
+    "name": "サシカマス",
+    "apiName": "arrokuda"
+  },
+  {
+    "id": 847,
+    "name": "カマスジョー",
+    "apiName": "barraskewda"
+  },
+  {
+    "id": 848,
+    "name": "エレズン",
+    "apiName": "toxel"
+  },
+  {
+    "id": 849,
+    "name": "ストリンダー",
+    "apiName": "toxtricity"
+  },
+  {
+    "id": 850,
+    "name": "ヤクデ",
+    "apiName": "sizzlipede"
+  },
+  {
+    "id": 851,
+    "name": "マルヤクデ",
+    "apiName": "centiskorch"
+  },
+  {
+    "id": 852,
+    "name": "タタッコ",
+    "apiName": "clobbopus"
+  },
+  {
+    "id": 853,
+    "name": "オトスパス",
+    "apiName": "grapploct"
+  },
+  {
+    "id": 854,
+    "name": "ヤバチャ",
+    "apiName": "sinistea"
+  },
+  {
+    "id": 855,
+    "name": "ポットデス",
+    "apiName": "polteageist"
+  },
+  {
+    "id": 856,
+    "name": "ミブリム",
+    "apiName": "hatenna"
+  },
+  {
+    "id": 857,
+    "name": "テブリム",
+    "apiName": "hattrem"
+  },
+  {
+    "id": 858,
+    "name": "ブリムオン",
+    "apiName": "hatterene"
+  },
+  {
+    "id": 859,
+    "name": "ベロバー",
+    "apiName": "impidimp"
+  },
+  {
+    "id": 860,
+    "name": "ギモー",
+    "apiName": "morgrem"
+  },
+  {
+    "id": 861,
+    "name": "オーロンゲ",
+    "apiName": "grimmsnarl"
+  },
+  {
+    "id": 862,
+    "name": "タチフサグマ",
+    "apiName": "obstagoon"
+  },
+  {
+    "id": 863,
+    "name": "ニャイキング",
+    "apiName": "perrserker"
+  },
+  {
+    "id": 864,
+    "name": "サニゴーン",
+    "apiName": "cursola"
+  },
+  {
+    "id": 865,
+    "name": "ネギガナイト",
+    "apiName": "sirfetchd"
+  },
+  {
+    "id": 866,
+    "name": "バリコオル",
+    "apiName": "mr-rime"
+  },
+  {
+    "id": 867,
+    "name": "デスバーン",
+    "apiName": "runerigus"
+  },
+  {
+    "id": 868,
+    "name": "マホミル",
+    "apiName": "milcery"
+  },
+  {
+    "id": 869,
+    "name": "マホイップ",
+    "apiName": "alcremie"
+  },
+  {
+    "id": 870,
+    "name": "タイレーツ",
+    "apiName": "falinks"
+  },
+  {
+    "id": 871,
+    "name": "バチンウニ",
+    "apiName": "pincurchin"
+  },
+  {
+    "id": 872,
+    "name": "ユキハミ",
+    "apiName": "snom"
+  },
+  {
+    "id": 873,
+    "name": "モスノウ",
+    "apiName": "frosmoth"
+  },
+  {
+    "id": 874,
+    "name": "イシヘンジン",
+    "apiName": "stonjourner"
+  },
+  {
+    "id": 875,
+    "name": "コオリッポ",
+    "apiName": "eiscue"
+  },
+  {
+    "id": 876,
+    "name": "イエッサン",
+    "apiName": "indeedee"
+  },
+  {
+    "id": 877,
+    "name": "モルペコ",
+    "apiName": "morpeko"
+  },
+  {
+    "id": 878,
+    "name": "ゾウドウ",
+    "apiName": "cufant"
+  },
+  {
+    "id": 879,
+    "name": "ダイオウドウ",
+    "apiName": "copperajah"
+  },
+  {
+    "id": 880,
+    "name": "パッチラゴン",
+    "apiName": "dracozolt"
+  },
+  {
+    "id": 881,
+    "name": "パッチルドン",
+    "apiName": "arctozolt"
+  },
+  {
+    "id": 882,
+    "name": "ウオノラゴン",
+    "apiName": "dracovish"
+  },
+  {
+    "id": 883,
+    "name": "ウオチルドン",
+    "apiName": "arctovish"
+  },
+  {
+    "id": 884,
+    "name": "ジュラルドン",
+    "apiName": "duraludon"
+  },
+  {
+    "id": 885,
+    "name": "ドラメシヤ",
+    "apiName": "dreepy"
+  },
+  {
+    "id": 886,
+    "name": "ドロンチ",
+    "apiName": "drakloak"
+  },
+  {
+    "id": 887,
+    "name": "ドラパルト",
+    "apiName": "dragapult"
+  },
+  {
+    "id": 888,
+    "name": "ザシアン",
+    "apiName": "zacian"
+  },
+  {
+    "id": 889,
+    "name": "ザマゼンタ",
+    "apiName": "zamazenta"
+  },
+  {
+    "id": 890,
+    "name": "ムゲンダイナ",
+    "apiName": "eternatus"
+  },
+  {
+    "id": 891,
+    "name": "ダクマ",
+    "apiName": "kubfu"
+  },
+  {
+    "id": 892,
+    "name": "ウーラオス",
+    "apiName": "urshifu"
+  },
+  {
+    "id": 893,
+    "name": "ザルード",
+    "apiName": "zarude"
+  },
+  {
+    "id": 894,
+    "name": "レジエレキ",
+    "apiName": "regieleki"
+  },
+  {
+    "id": 895,
+    "name": "レジドラゴ",
+    "apiName": "regidrago"
+  },
+  {
+    "id": 896,
+    "name": "ブリザポス",
+    "apiName": "glastrier"
+  },
+  {
+    "id": 897,
+    "name": "レイスポス",
+    "apiName": "spectrier"
+  },
+  {
+    "id": 898,
+    "name": "バドレックス",
+    "apiName": "calyrex"
+  },
+  {
+    "id": 899,
+    "name": "アヤシシ",
+    "apiName": "wyrdeer"
+  },
+  {
+    "id": 900,
+    "name": "バサギリ",
+    "apiName": "kleavor"
+  },
+  {
+    "id": 901,
+    "name": "ガチグマ",
+    "apiName": "ursaluna"
+  },
+  {
+    "id": 902,
+    "name": "イダイトウ",
+    "apiName": "basculegion"
+  },
+  {
+    "id": 903,
+    "name": "オオニューラ",
+    "apiName": "sneasler"
+  },
+  {
+    "id": 904,
+    "name": "ハリーマン",
+    "apiName": "overqwil"
+  },
+  {
+    "id": 905,
+    "name": "ラブトロス",
+    "apiName": "enamorus"
+  },
+  {
+    "id": 906,
+    "name": "ニャオハ",
+    "apiName": "sprigatito"
+  },
+  {
+    "id": 907,
+    "name": "ニャローテ",
+    "apiName": "floragato"
+  },
+  {
+    "id": 908,
+    "name": "マスカーニャ",
+    "apiName": "meowscarada"
+  },
+  {
+    "id": 909,
+    "name": "ホゲータ",
+    "apiName": "fuecoco"
+  },
+  {
+    "id": 910,
+    "name": "アチゲータ",
+    "apiName": "crocalor"
+  },
+  {
+    "id": 911,
+    "name": "ラウドボーン",
+    "apiName": "skeledirge"
+  },
+  {
+    "id": 912,
+    "name": "クワッス",
+    "apiName": "quaxly"
+  },
+  {
+    "id": 913,
+    "name": "ウェルカモ",
+    "apiName": "quaxwell"
+  },
+  {
+    "id": 914,
+    "name": "ウェーニバル",
+    "apiName": "quaquaval"
+  },
+  {
+    "id": 915,
+    "name": "グルトン",
+    "apiName": "lechonk"
+  },
+  {
+    "id": 916,
+    "name": "パフュートン",
+    "apiName": "oinkologne"
+  },
+  {
+    "id": 917,
+    "name": "タマンチュラ",
+    "apiName": "tarountula"
+  },
+  {
+    "id": 918,
+    "name": "ワナイダー",
+    "apiName": "spidops"
+  },
+  {
+    "id": 919,
+    "name": "マメバッタ",
+    "apiName": "nymble"
+  },
+  {
+    "id": 920,
+    "name": "エクスレッグ",
+    "apiName": "lokix"
+  },
+  {
+    "id": 921,
+    "name": "パモ",
+    "apiName": "pawmi"
+  },
+  {
+    "id": 922,
+    "name": "パモット",
+    "apiName": "pawmo"
+  },
+  {
+    "id": 923,
+    "name": "パーモット",
+    "apiName": "pawmot"
+  },
+  {
+    "id": 924,
+    "name": "ワッカネズミ",
+    "apiName": "tandemaus"
+  },
+  {
+    "id": 925,
+    "name": "イッカネズミ",
+    "apiName": "maushold"
+  },
+  {
+    "id": 926,
+    "name": "パピモッチ",
+    "apiName": "fidough"
+  },
+  {
+    "id": 927,
+    "name": "バウッツェル",
+    "apiName": "dachsbun"
+  },
+  {
+    "id": 928,
+    "name": "ミニーブ",
+    "apiName": "smoliv"
+  },
+  {
+    "id": 929,
+    "name": "オリーニョ",
+    "apiName": "dolliv"
+  },
+  {
+    "id": 930,
+    "name": "オリーヴァ",
+    "apiName": "arboliva"
+  },
+  {
+    "id": 931,
+    "name": "イキリンコ",
+    "apiName": "squawkabilly"
+  },
+  {
+    "id": 932,
+    "name": "コジオ",
+    "apiName": "nacli"
+  },
+  {
+    "id": 933,
+    "name": "ジオヅム",
+    "apiName": "naclstack"
+  },
+  {
+    "id": 934,
+    "name": "キョジオーン",
+    "apiName": "garganacl"
+  },
+  {
+    "id": 935,
+    "name": "カルボウ",
+    "apiName": "charcadet"
+  },
+  {
+    "id": 936,
+    "name": "グレンアルマ",
+    "apiName": "armarouge"
+  },
+  {
+    "id": 937,
+    "name": "ソウブレイズ",
+    "apiName": "ceruledge"
+  },
+  {
+    "id": 938,
+    "name": "ズピカ",
+    "apiName": "tadbulb"
+  },
+  {
+    "id": 939,
+    "name": "ハラバリー",
+    "apiName": "bellibolt"
+  },
+  {
+    "id": 940,
+    "name": "カイデン",
+    "apiName": "wattrel"
+  },
+  {
+    "id": 941,
+    "name": "タイカイデン",
+    "apiName": "kilowattrel"
+  },
+  {
+    "id": 942,
+    "name": "オラチフ",
+    "apiName": "maschiff"
+  },
+  {
+    "id": 943,
+    "name": "マフィティフ",
+    "apiName": "mabosstiff"
+  },
+  {
+    "id": 944,
+    "name": "シルシュルー",
+    "apiName": "shroodle"
+  },
+  {
+    "id": 945,
+    "name": "タギングル",
+    "apiName": "grafaiai"
+  },
+  {
+    "id": 946,
+    "name": "アノクサ",
+    "apiName": "bramblin"
+  },
+  {
+    "id": 947,
+    "name": "アノホラグサ",
+    "apiName": "brambleghast"
+  },
+  {
+    "id": 948,
+    "name": "ノノクラゲ",
+    "apiName": "toedscool"
+  },
+  {
+    "id": 949,
+    "name": "リククラゲ",
+    "apiName": "toedscruel"
+  },
+  {
+    "id": 950,
+    "name": "ガケガニ",
+    "apiName": "klawf"
+  },
+  {
+    "id": 951,
+    "name": "カプサイジ",
+    "apiName": "capsakid"
+  },
+  {
+    "id": 952,
+    "name": "スコヴィラン",
+    "apiName": "scovillain"
+  },
+  {
+    "id": 953,
+    "name": "シガロコ",
+    "apiName": "rellor"
+  },
+  {
+    "id": 954,
+    "name": "ベラカス",
+    "apiName": "rabsca"
+  },
+  {
+    "id": 955,
+    "name": "ヒラヒナ",
+    "apiName": "flittle"
+  },
+  {
+    "id": 956,
+    "name": "クエスパトラ",
+    "apiName": "espathra"
+  },
+  {
+    "id": 957,
+    "name": "カヌチャン",
+    "apiName": "tinkatink"
+  },
+  {
+    "id": 958,
+    "name": "ナカヌチャン",
+    "apiName": "tinkatuff"
+  },
+  {
+    "id": 959,
+    "name": "デカヌチャン",
+    "apiName": "tinkaton"
+  },
+  {
+    "id": 960,
+    "name": "ウミディグダ",
+    "apiName": "wiglett"
+  },
+  {
+    "id": 961,
+    "name": "ウミトリオ",
+    "apiName": "wugtrio"
+  },
+  {
+    "id": 962,
+    "name": "オトシドリ",
+    "apiName": "bombirdier"
+  },
+  {
+    "id": 963,
+    "name": "ナミイルカ",
+    "apiName": "finizen"
+  },
+  {
+    "id": 964,
+    "name": "イルカマン",
+    "apiName": "palafin"
+  },
+  {
+    "id": 965,
+    "name": "ブロロン",
+    "apiName": "varoom"
+  },
+  {
+    "id": 966,
+    "name": "ブロロローム",
+    "apiName": "revavroom"
+  },
+  {
+    "id": 967,
+    "name": "モトトカゲ",
+    "apiName": "cyclizar"
+  },
+  {
+    "id": 968,
+    "name": "ミミズズ",
+    "apiName": "orthworm"
+  },
+  {
+    "id": 969,
+    "name": "キラーメ",
+    "apiName": "glimmet"
+  },
+  {
+    "id": 970,
+    "name": "キラフロル",
+    "apiName": "glimmora"
+  },
+  {
+    "id": 971,
+    "name": "ボチ",
+    "apiName": "greavard"
+  },
+  {
+    "id": 972,
+    "name": "ハカドッグ",
+    "apiName": "houndstone"
+  },
+  {
+    "id": 973,
+    "name": "カラミンゴ",
+    "apiName": "flamigo"
+  },
+  {
+    "id": 974,
+    "name": "アルクジラ",
+    "apiName": "cetoddle"
+  },
+  {
+    "id": 975,
+    "name": "ハルクジラ",
+    "apiName": "cetitan"
+  },
+  {
+    "id": 976,
+    "name": "ミガルーサ",
+    "apiName": "veluza"
+  },
+  {
+    "id": 977,
+    "name": "ヘイラッシャ",
+    "apiName": "dondozo"
+  },
+  {
+    "id": 978,
+    "name": "シャリタツ",
+    "apiName": "tatsugiri"
+  },
+  {
+    "id": 979,
+    "name": "コノヨザル",
+    "apiName": "annihilape"
+  },
+  {
+    "id": 980,
+    "name": "ドオー",
+    "apiName": "clodsire"
+  },
+  {
+    "id": 981,
+    "name": "リキキリン",
+    "apiName": "farigiraf"
+  },
+  {
+    "id": 982,
+    "name": "ノココッチ",
+    "apiName": "dudunsparce"
+  },
+  {
+    "id": 983,
+    "name": "ドドゲザン",
+    "apiName": "kingambit"
+  },
+  {
+    "id": 984,
+    "name": "イダイナキバ",
+    "apiName": "great-tusk"
+  },
+  {
+    "id": 985,
+    "name": "サケブシッポ",
+    "apiName": "scream-tail"
+  },
+  {
+    "id": 986,
+    "name": "アラブルタケ",
+    "apiName": "brute-bonnet"
+  },
+  {
+    "id": 987,
+    "name": "ハバタクカミ",
+    "apiName": "flutter-mane"
+  },
+  {
+    "id": 988,
+    "name": "チヲハウハネ",
+    "apiName": "slither-wing"
+  },
+  {
+    "id": 989,
+    "name": "スナノケガワ",
+    "apiName": "sandy-shocks"
+  },
+  {
+    "id": 990,
+    "name": "テツノワダチ",
+    "apiName": "iron-treads"
+  },
+  {
+    "id": 991,
+    "name": "テツノツツミ",
+    "apiName": "iron-bundle"
+  },
+  {
+    "id": 992,
+    "name": "テツノカイナ",
+    "apiName": "iron-hands"
+  },
+  {
+    "id": 993,
+    "name": "テツノコウベ",
+    "apiName": "iron-jugulis"
+  },
+  {
+    "id": 994,
+    "name": "テツノドクガ",
+    "apiName": "iron-moth"
+  },
+  {
+    "id": 995,
+    "name": "テツノイバラ",
+    "apiName": "iron-thorns"
+  },
+  {
+    "id": 996,
+    "name": "セビエ",
+    "apiName": "frigibax"
+  },
+  {
+    "id": 997,
+    "name": "セゴール",
+    "apiName": "arctibax"
+  },
+  {
+    "id": 998,
+    "name": "セグレイブ",
+    "apiName": "baxcalibur"
+  },
+  {
+    "id": 999,
+    "name": "コレクレー",
+    "apiName": "gimmighoul"
+  },
+  {
+    "id": 1000,
+    "name": "サーフゴー",
+    "apiName": "gholdengo"
+  },
+  {
+    "id": 1001,
+    "name": "チオンジェン",
+    "apiName": "wo-chien"
+  },
+  {
+    "id": 1002,
+    "name": "パオジアン",
+    "apiName": "chien-pao"
+  },
+  {
+    "id": 1003,
+    "name": "ディンルー",
+    "apiName": "ting-lu"
+  },
+  {
+    "id": 1004,
+    "name": "イーユイ",
+    "apiName": "chi-yu"
+  },
+  {
+    "id": 1005,
+    "name": "トドロクツキ",
+    "apiName": "roaring-moon"
+  },
+  {
+    "id": 1006,
+    "name": "テツノブジン",
+    "apiName": "iron-valiant"
+  },
+  {
+    "id": 1007,
+    "name": "コライドン",
+    "apiName": "koraidon"
+  },
+  {
+    "id": 1008,
+    "name": "ミライドン",
+    "apiName": "miraidon"
+  },
+  {
+    "id": 1009,
+    "name": "ウネルミナモ",
+    "apiName": "walking-wake"
+  },
+  {
+    "id": 1010,
+    "name": "テツノイサハ",
+    "apiName": "iron-leaves"
+  },
+  {
+    "id": 1011,
+    "name": "カミッチュ",
+    "apiName": "dipplin"
+  },
+  {
+    "id": 1012,
+    "name": "チャデス",
+    "apiName": "poltchageist"
+  },
+  {
+    "id": 1013,
+    "name": "ヤバソチャ",
+    "apiName": "sinistcha"
+  },
+  {
+    "id": 1014,
+    "name": "イイネイヌ",
+    "apiName": "okidogi"
+  },
+  {
+    "id": 1015,
+    "name": "マシマシラ",
+    "apiName": "munkidori"
+  },
+  {
+    "id": 1016,
+    "name": "キチキギス",
+    "apiName": "fezandipiti"
+  },
+  {
+    "id": 1017,
+    "name": "オーガポン",
+    "apiName": "ogerpon"
+  },
+  {
+    "id": 1018,
+    "name": "ブリジュラス",
+    "apiName": "archaludon"
+  },
+  {
+    "id": 1019,
+    "name": "カミツオロチ",
+    "apiName": "hydrapple"
+  },
+  {
+    "id": 1020,
+    "name": "ウガツホムラ",
+    "apiName": "gouging-fire"
+  },
+  {
+    "id": 1021,
+    "name": "タケルライコ",
+    "apiName": "raging-bolt"
+  },
+  {
+    "id": 1022,
+    "name": "テツノイワオ",
+    "apiName": "iron-boulder"
+  },
+  {
+    "id": 1023,
+    "name": "テツノカシラ",
+    "apiName": "iron-crown"
+  },
+  {
+    "id": 1024,
+    "name": "テラパゴス",
+    "apiName": "terapagos"
+  },
+  {
+    "id": 1025,
+    "name": "モモワロウ",
+    "apiName": "pecharunt"
+  }
+]

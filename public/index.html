@@ -499,6 +499,20 @@
 
         <div class="count-area">
 
+          <label for="evolutionFilter">
+            進化条件
+          </label>
+
+          <select id="evolutionFilter">
+            <option value="all">すべて</option>
+            <option value="final">最終進化</option>
+            <option value="none">進化しない</option>
+          </select>
+
+        </div>
+
+        <div class="count-area">
+
           <label for="count">
             表示数
           </label>
@@ -934,7 +948,11 @@
         const response =
           await fetch(
             "/api/random?count=" +
-            count
+            count +
+            "&evolution=" +
+            encodeURIComponent(
+              document.getElementById("evolutionFilter").value
+            )
           );
 
 

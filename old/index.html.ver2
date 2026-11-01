@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ポケモン種族値検索</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #e53935, #8e0000);
+      min-height: 100vh;
+      padding: 30px 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .header {
+      background: white;
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 0 0 25px;
+    }
+
+    .search {
+      display: flex;
+      gap: 10px;
+    }
+
+    input {
+      flex: 1;
+      padding: 14px;
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      font-size: 17px;
+      outline: none;
+    }
+
+    input:focus {
+      border-color: #e53935;
+    }
+
+    button {
+      border: none;
+      border-radius: 10px;
+      padding: 12px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .search-button {
+      background: #e53935;
+      color: white;
+    }
+
+    .search-button:hover {
+      background: #c62828;
+    }
+
+    .controls {
+      display: flex;
+      gap: 10px;
+      margin-top: 15px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .random-button {
+      background: #673ab7;
+      color: white;
+    }
+
+    .random-button:hover {
+      background: #512da8;
+    }
+
+    .count-area {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-left: auto;
+    }
+
+    select {
+      padding: 10px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    #message {
+      text-align: center;
+      margin-top: 15px;
+      color: #666;
+    }
+
+    .candidates {
+      margin-top: 15px;
+    }
+
+    .candidate {
+      width: 100%;
+      text-align: left;
+      background: #f5f5f5;
+      color: #222;
+      margin-bottom: 8px;
+      padding: 12px 15px;
+    }
+
+    .candidate:hover {
+      background: #eeeeee;
+    }
+
+    .pokemon-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .pokemon-card {
+      background: white;
+      border-radius: 18px;
+      padding: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .pokemon-header {
+      text-align: center;
+    }
+
+    .pokemon-image {
+      width: 140px;
+      height: 140px;
+      image-rendering: pixelated;
+    }
+
+    .pokemon-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 5px;
+    }
+
+    .pokemon-id {
+      color: #777;
+      font-size: 14px;
+      margin-top: 3px;
+    }
+
+    .stats {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .stat {
+      background: #f7f7f7;
+      padding: 11px;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+    }
+
+    .stat-value {
+      font-weight: bold;
+    }
+
+    .total {
+      margin-top: 15px;
+      background: linear-gradient(135deg, #e53935, #c62828);
+      color: white;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .total-label {
+      font-size: 13px;
+    }
+
+    .total-value {
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .total-difference {
+      background: #333;
+      color: white;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    /* 対戦モード */
+
+    .battle-panel {
+      background: #fff;
+      border-radius: 18px;
+      padding: 22px;
+      margin: 20px 0;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, .18);
+    }
+
+    .battle-panel h2 {
+      margin: 0 0 14px;
+    }
+
+    .battle-register {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .battle-register input {
+      min-width: 0;
+    }
+
+    .battle-player-row {
+      display: grid;
+      grid-template-columns: minmax(100px, 1fr) minmax(150px, 2fr);
+      gap: 10px;
+      align-items: center;
+      padding: 12px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    .battle-player-info {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .battle-player-row select {
+      width: 100%;
+      min-width: 0;
+    }
+
+    .battle-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    .battle-primary {
+      background: #1565c0;
+      color: #fff;
+    }
+
+    .battle-secondary {
+      background: #eee;
+      color: #222;
+    }
+
+    .battle-note {
+      color: #666;
+      font-size: 13px;
+      margin: 8px 0;
+    }
+
+    .battle-ranking,
+    .battle-history {
+      margin-top: 18px;
+    }
+
+    .battle-ranking-row,
+    .battle-history-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 9px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    .battle-positive {
+      color: #16803c;
+      font-weight: bold;
+    }
+
+    .battle-negative {
+      color: #c62828;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 15px;
+      }
+
+      .search {
+        flex-direction: column;
+      }
+
+      .search-button {
+        width: 100%;
+      }
+
+      .count-area {
+        margin-left: 0;
+        width: 100%;
+        justify-content: space-between;
+      }
+
+      .pokemon-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .battle-register {
+        flex-direction: column;
+      }
+
+      .battle-player-row {
+        grid-template-columns: 1fr;
+      }
+
+      .battle-player-row select {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="header">
+      <h1>⚡ ポケモン種族値検索</h1>
+
+      <div class="search">
+        <input
+          id="pokemonName"
+          type="text"
+          placeholder="例：ピカチュウ、ミュウツー"
+          autocomplete="off"
+        >
+
+        <button
+          class="search-button"
+          onclick="searchPokemon()"
+        >
+          🔍 検索
+        </button>
+      </div>
+
+      <div class="controls">
+        <button
+          class="random-button"
+          onclick="randomPokemon()"
+        >
+          🎲 ランダム表示
+        </button>
+
+        <div class="count-area">
+          <label for="evolutionFilter">進化条件</label>
+          <select id="evolutionFilter">
+            <option value="all">すべて</option>
+            <option value="final">最終進化</option>
+            <option value="none">進化しない</option>
+          </select>
+        </div>
+
+        <div class="count-area">
+          <label for="count">表示数</label>
+          <select id="count">
+            <option value="1">1匹</option>
+            <option value="2">2匹</option>
+            <option value="3">3匹</option>
+            <option value="4">4匹</option>
+            <option value="5" selected>5匹</option>
+            <option value="6">6匹</option>
+            <option value="7">7匹</option>
+            <option value="8">8匹</option>
+            <option value="9">9匹</option>
+            <option value="10">10匹</option>
+            <option value="11">11匹</option>
+            <option value="12">12匹</option>
+            <option value="13">13匹</option>
+            <option value="14">14匹</option>
+            <option value="15">15匹</option>
+            <option value="16">16匹</option>
+            <option value="17">17匹</option>
+            <option value="18">18匹</option>
+            <option value="19">19匹</option>
+            <option value="20">20匹</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="message"></div>
+      <div id="candidates" class="candidates"></div>
+    </div>
+
+    <!-- 対戦モード -->
+    <section class="battle-panel" id="battlePanel">
+      <h2>🏆 種族値バトル</h2>
+
+      <p class="battle-note">
+        プレイヤーを登録した順番で、ランダム表示されたポケモンを割り当てます。<br>
+        例：プレイヤー1＝1匹目、プレイヤー2＝2匹目。<br>
+        ランダム生成が完了すると、その回の点数差を自動計算して記録します。
+      </p>
+
+      <div class="battle-register">
+        <input
+          id="battlePlayerName"
+          type="text"
+          placeholder="プレイヤー名を入力"
+          maxlength="20"
+        >
+        <button
+          type="button"
+          class="battle-primary"
+          onclick="addBattlePlayer()"
+        >
+          プレイヤー登録
+        </button>
+      </div>
+
+      <div id="battlePlayers"></div>
+
+      <p id="battleMessage" class="battle-note"></p>
+
+      <div class="battle-ranking">
+        <h3>累計ポイントランキング</h3>
+        <div id="battleRanking"></div>
+      </div>
+
+      <div class="battle-history">
+        <h3>対戦履歴</h3>
+        <div id="battleHistory"></div>
+
+        <div class="battle-actions">
+          <button
+            type="button"
+            class="battle-secondary"
+            onclick="undoBattleRound()"
+          >
+            直前の回戦を取り消す
+          </button>
+
+          <button
+            type="button"
+            class="battle-secondary"
+            onclick="resetBattleData()"
+          >
+            全記録をリセット
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 合計種族値の差 -->
+
+    <label style="display:block; margin:16px 0; color:white; font-weight:bold;">
+      <input
+        type="checkbox"
+        id="showTotalDifference"
+        style="width:auto; padding:0; margin-right:8px;"
+      >
+      合計種族値の差を表示
+    </label>
+
+    <div
+      id="totalDifference"
+      class="total-difference"
+      style="display:none;"
+    >
+      合計種族値の差：-
+    </div>
+
+    <!-- ポケモン表示 -->
+
+    <div
+      id="pokemonGrid"
+      class="pokemon-grid"
+    ></div>
+
+  </div>
+
+  <script>
+    // ========================================
+    // ポケモン検索
+    // ========================================
+
+    async function searchPokemon() {
+      const input = document.getElementById("pokemonName");
+      const keyword = input.value.trim();
+
+      const message = document.getElementById("message");
+      const candidates = document.getElementById("candidates");
+      const grid = document.getElementById("pokemonGrid");
+
+      candidates.innerHTML = "";
+      grid.innerHTML = "";
+
+      if (!keyword) {
+        message.textContent = "ポケモン名を入力してください。";
+        return;
+      }
+
+      message.textContent = "検索しています...";
+
+      try {
+        const response = await fetch(
+          `/api/search?name=${encodeURIComponent(keyword)}`
+        );
+
+        const data = await response.json();
+
+        if (!response.ok) {
+          throw new Error(data.error);
+        }
+
+        if (data.length === 0) {
+          message.textContent = "ポケモンが見つかりませんでした。";
+          return;
+        }
+
+        message.textContent = `${data.length}件見つかりました。`;
+
+        if (data.length === 1) {
+          await showPokemon(data[0].apiName);
+          return;
+        }
+
+        data.forEach(pokemon => {
+          const button = document.createElement("button");
+
+          button.className = "candidate";
+          button.textContent = pokemon.name;
+
+          button.onclick = () => {
+            showPokemon(pokemon.apiName);
+          };
+
+          candidates.appendChild(button);
+        });
+
+      } catch (error) {
+        message.textContent =
+          error.message || "検索に失敗しました。";
+      }
+    }
+
+    // ========================================
+    // ポケモン1匹表示
+    // ========================================
+
+    async function showPokemon(apiName) {
+      const message = document.getElementById("message");
+
+      try {
+        const response = await fetch(
+          `/api/pokemon?name=${encodeURIComponent(apiName)}`
+        );
+
+        const data = await response.json();
+
+        if (!response.ok) {
+          throw new Error(data.error);
+        }
+
+        createPokemonCard(data);
+        message.textContent = "";
+
+      } catch (error) {
+        message.textContent =
+          error.message || "データ取得に失敗しました。";
+      }
+    }
+
+    // ========================================
+    // カード生成
+    // ========================================
+
+    function createPokemonCard(data) {
+      const grid = document.getElementById("pokemonGrid");
+
+      const card = document.createElement("div");
+      card.className = "pokemon-card";
+
+      card.innerHTML = `
+        <div class="pokemon-header">
+          <img
+            class="pokemon-image"
+            src="${data.image || ""}"
+            alt="${data.name}"
+          >
+
+          <div class="pokemon-name">
+            ${data.name}
+          </div>
+
+          <div class="pokemon-id">
+            No.${String(data.id).padStart(4, "0")}
+          </div>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <span>HP</span>
+            <span class="stat-value">${data.hp}</span>
+          </div>
+
+          <div class="stat">
+            <span>こうげき</span>
+            <span class="stat-value">${data.attack}</span>
+          </div>
+
+          <div class="stat">
+            <span>ぼうぎょ</span>
+            <span class="stat-value">${data.defense}</span>
+          </div>
+
+          <div class="stat">
+            <span>とくこう</span>
+            <span class="stat-value">${data.specialAttack}</span>
+          </div>
+
+          <div class="stat">
+            <span>とくぼう</span>
+            <span class="stat-value">${data.specialDefense}</span>
+          </div>
+
+          <div class="stat">
+            <span>すばやさ</span>
+            <span class="stat-value">${data.speed}</span>
+          </div>
+        </div>
+
+        <div class="total">
+          <div class="total-label">種族値合計</div>
+          <div class="total-value">${data.total}</div>
+        </div>
+      `;
+
+      grid.appendChild(card);
+
+      updateTotalDifference();
+      renderBattleMode();
+    }
+
+    // ========================================
+    // 合計種族値の差を計算
+    // ========================================
+
+    function updateTotalDifference() {
+      const cards = [
+        ...document.querySelectorAll(
+          "#pokemonGrid .pokemon-card"
+        )
+      ];
+
+      const pokemon = cards.map(card => ({
+        name: card.querySelector(".pokemon-name")?.textContent.trim(),
+        total: Number(
+          card.querySelector(".total-value")?.textContent.trim()
+        )
+      })).filter(p => Number.isFinite(p.total));
+
+      const display = document.getElementById("totalDifference");
+
+      if (pokemon.length === 0) {
+        display.textContent = "合計種族値の差：-";
+        return;
+      }
+
+      const max = Math.max(...pokemon.map(p => p.total));
+      const min = Math.min(...pokemon.map(p => p.total));
+
+      const highest = pokemon.filter(p => p.total === max);
+      const lowest = pokemon.filter(p => p.total === min);
+
+      const difference =
+        Math.round(max / 10) * 10 -
+        Math.round(min / 10) * 10;
+
+      display.innerHTML = `
+        <div style="font-size:16px; margin-bottom:10px;">
+          合計種族値の差
+        </div>
+
+        <div style="font-size:18px; margin-bottom:8px;">
+          <span style="color:#ffcc80;">最高：</span>
+          ${highest.map(p => p.name).join("・")}
+          （${max}）
+        </div>
+
+        <div style="font-size:18px; margin-bottom:8px;">
+          <span style="color:#90caf9;">最低：</span>
+          ${lowest.map(p => p.name).join("・")}
+          （${min}）
+        </div>
+
+        <div style="font-size:30px; font-weight:bold;">
+          差：${difference}
+        </div>
+      `;
+    }
+
+    // ========================================
+    // ランダムポケモン
+    // ========================================
+
+    async function randomPokemon() {
+      const count = Number(
+        document.getElementById("count").value
+      );
+
+      const message = document.getElementById("message");
+      const grid = document.getElementById("pokemonGrid");
+      const candidates = document.getElementById("candidates");
+
+      const evolution =
+        document.getElementById("evolutionFilter")?.value || "all";
+
+      grid.innerHTML = "";
+      candidates.innerHTML = "";
+
+      message.textContent = `${count}匹選んでいます...`;
+
+      const seen = new Set();
+
+      let attempts = 0;
+      const maxAttempts = 10;
+
+      try {
+        while (
+          grid.children.length < count &&
+          attempts < maxAttempts
+        ) {
+          attempts++;
+
+          const remaining = count - grid.children.length;
+
+          message.textContent =
+            `${count}匹中${grid.children.length}匹を表示済み。追加取得中...`;
+
+          const params = new URLSearchParams({
+            count: String(remaining),
+            evolution: evolution
+          });
+
+          const response = await fetch(
+            `/api/random?${params.toString()}`
+          );
+
+          const data = await response.json();
+
+          if (!response.ok) {
+            throw new Error(
+              data.error || "ランダム取得に失敗しました。"
+            );
+          }
+
+          if (!Array.isArray(data) || data.length === 0) {
+            break;
+          }
+
+          let addedThisRound = false;
+
+          for (const pokemon of data) {
+            if (grid.children.length >= count) {
+              break;
+            }
+
+            if (seen.has(pokemon.apiName)) {
+              continue;
+            }
+
+            seen.add(pokemon.apiName);
+
+            const before = grid.children.length;
+
+            await showPokemon(pokemon.apiName);
+
+            if (grid.children.length > before) {
+              addedThisRound = true;
+            }
+          }
+
+          if (!addedThisRound && data.length === 0) {
+            break;
+          }
+        }
+
+        const displayed = grid.children.length;
+
+        if (displayed === count) {
+          message.textContent =
+            `${displayed}匹のポケモンを表示しました。`;
+          recordBattleRoundFromCurrentDisplay();
+        } else {
+          message.textContent =
+            `${count}匹中${displayed}匹を表示しました。取得できないポケモンがあるため、補充を終了しました。`;
+        }
+
+      } catch (error) {
+        const displayed = grid.children.length;
+
+        message.textContent =
+          `${displayed}匹表示しました。` +
+          (error.message || "追加取得に失敗しました。");
+      }
+    }
+
+    // ========================================
+    // 種族値バトル
+    // プレイヤー登録順＝ポケモン表示順
+    // ========================================
+
+    const BATTLE_STORAGE_KEY = "pokemonStatBattle_v1";
+
+    let battleData = loadBattleData();
+
+    function loadBattleData() {
+      try {
+        const saved = JSON.parse(
+          localStorage.getItem(BATTLE_STORAGE_KEY)
+        );
+
+        if (
+          saved &&
+          Array.isArray(saved.players) &&
+          Array.isArray(saved.rounds)
+        ) {
+          return saved;
+        }
+      } catch (error) {
+        console.warn("対戦データを読み込めませんでした", error);
+      }
+
+      return {
+        players: [],
+        rounds: []
+      };
+    }
+
+    function saveBattleData() {
+      try {
+        localStorage.setItem(
+          BATTLE_STORAGE_KEY,
+          JSON.stringify(battleData)
+        );
+      } catch (error) {
+        document.getElementById("battleMessage").textContent =
+          "保存に失敗しました。";
+      }
+    }
+
+    // 10単位で四捨五入
+    function roundedBattleTotal(value) {
+      return Math.round(Number(value) / 10) * 10;
+    }
+
+    // HTMLエスケープ
+    function escapeBattleHtml(value) {
+      return String(value).replace(/[&<>"']/g, ch => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;"
+      }[ch]));
+    }
+
+    // ========================================
+    // プレイヤー登録
+    // ========================================
+
+    function addBattlePlayer() {
+      const input = document.getElementById("battlePlayerName");
+      const name = input.value.trim();
+
+      const message = document.getElementById("battleMessage");
+
+      if (!name) {
+        message.textContent = "プレイヤー名を入力してください。";
+        return;
+      }
+
+      if (
+        battleData.players.some(
+          p => p.name.toLowerCase() === name.toLowerCase()
+        )
+      ) {
+        message.textContent = "同じ名前のプレイヤーは登録できません。";
+        return;
+      }
+
+      battleData.players.push({
+        id: `${Date.now()}_${Math.random().toString(36).slice(2, 8)}`,
+        name
+      });
+
+      input.value = "";
+
+      saveBattleData();
+      renderBattleMode();
+
+      message.textContent =
+        `${battleData.players.length}番目の枠に${name}を登録しました。`;
+    }
+
+    // ========================================
+    // 現在表示されているポケモンを取得
+    // ========================================
+
+    function getDisplayedPokemonOptions() {
+      return [
+        ...document.querySelectorAll(
+          "#pokemonGrid .pokemon-card"
+        )
+      ].map(card => {
+        const name =
+          card.querySelector(".pokemon-name")?.textContent.trim() || "ポケモン";
+
+        let total = Number(
+          card.querySelector(".total-value")?.textContent.trim()
+        );
+
+        // 特殊フォームの種族値補正
+        if (name.includes("ムゲンダイナ")) {
+          total = 1125; // ※メガシンカ状態の正確な合計値に要確認
+        }
+
+        if (name.includes("ジガルデ")) {
+          total = 1200;
+        }
+
+        return { name, total };
+      }).filter(p => Number.isFinite(p.total));
+    }
+
+    // ========================================
+    // プレイヤーと担当ポケモンを表示
+    // ========================================
+
+    function renderBattleMode() {
+      const playersEl = document.getElementById("battlePlayers");
+
+      const pokemon = getDisplayedPokemonOptions();
+
+      if (battleData.players.length === 0) {
+        playersEl.textContent =
+          "まだプレイヤーが登録されていません。";
+
+      } else {
+        playersEl.innerHTML = battleData.players.map(
+          (player, index) => {
+
+            const assigned = pokemon[index];
+
+            return `
+              <div class="battle-player-row">
+                <div class="battle-player-info">
+
+                  <strong>
+                    ${index + 1}匹目：${escapeBattleHtml(player.name)}
+                  </strong>
+
+                  <span>
+                    ${
+                      assigned
+                        ? `${escapeBattleHtml(assigned.name)}（種族値 ${assigned.total}）`
+                        : "次のランダム生成で担当ポケモンが決まります"
+                    }
+                  </span>
+
+                </div>
+              </div>
+            `;
+          }
+        ).join("");
+      }
+
+      renderBattleRanking();
+      renderBattleHistory();
+    }
+
+    // ========================================
+    // 累計ポイント
+    // ========================================
+
+    function getPlayerPoints(playerId) {
+      return battleData.rounds.reduce(
+        (sum, round) => sum + (round.changes[playerId] || 0),
+        0
+      );
+    }
+
+    // ========================================
+    // ランキング表示
+    // ========================================
+
+    function renderBattleRanking() {
+      const el = document.getElementById("battleRanking");
+
+      if (!battleData.players.length) {
+        el.textContent = "プレイヤーを登録してください。";
+        return;
+      }
+
+      const ranked = battleData.players
+        .map(player => ({
+          ...player,
+          points: getPlayerPoints(player.id)
+        }))
+        .sort((a, b) =>
+          b.points - a.points ||
+          a.name.localeCompare(b.name, "ja")
+        );
+
+      el.innerHTML = ranked.map((p, i) => `
+        <div class="battle-ranking-row">
+
+          <span>
+            ${i + 1}位　${escapeBattleHtml(p.name)}
+          </span>
+
+          <strong class="${
+            p.points > 0
+              ? "battle-positive"
+              : p.points < 0
+                ? "battle-negative"
+                : ""
+          }">
+            ${p.points > 0 ? "+" : ""}${p.points}点
+          </strong>
+
+        </div>
+      `).join("");
+    }
+
+    // ========================================
+    // 対戦履歴表示
+    // ========================================
+
+    function renderBattleHistory() {
+      const el = document.getElementById("battleHistory");
+
+      if (!battleData.rounds.length) {
+        el.textContent = "まだ対戦記録がありません。";
+        return;
+      }
+
+      el.innerHTML = [...battleData.rounds]
+        .reverse()
+        .map(round => {
+
+          const details = round.results.map(r =>
+            `${escapeBattleHtml(r.playerName)}：${escapeBattleHtml(r.pokemonName)} ${r.total}`
+          ).join(" ／ ");
+
+          const changes = round.results.map(r => {
+            const points = round.changes[r.playerId] || 0;
+
+            return `
+              ${escapeBattleHtml(r.playerName)}
+              ${points > 0 ? "+" : ""}${points}点
+            `;
+          }).join("、");
+
+          return `
+            <div class="battle-history-row" style="display:block">
+
+              <strong>
+                ${round.number}回戦（種族値差 ${round.difference}）
+              </strong>
+
+              <div class="battle-note">
+                ${details}
+              </div>
+
+              <div class="battle-note">
+                ${changes}
+              </div>
+
+            </div>
+          `;
+        }).join("");
+    }
+
+    // ========================================
+    // ランダム生成後に自動でポイント計算
+    // ========================================
+
+    function recordBattleRoundFromCurrentDisplay() {
+
+      const players = battleData.players;
+
+      const pokemon = getDisplayedPokemonOptions();
+
+      const message = document.getElementById("battleMessage");
+
+      if (!players.length) {
+        return;
+      }
+
+      // プレイヤー数と表示ポケモン数が違う場合は記録しない
+      if (players.length !== pokemon.length) {
+
+        message.textContent =
+          `今回は得点を記録していません。プレイヤー${players.length}人に対してポケモンが${pokemon.length}匹です。表示数とプレイヤー数を同じにしてください。`;
+
+        return;
+      }
+
+      if (players.length < 2) {
+        message.textContent =
+          "得点を記録するには2人以上必要です。";
+
+        return;
+      }
+
+      // 登録順とポケモン表示順を対応させる
+      const results = players.map((player, index) => ({
+
+        playerId: player.id,
+
+        playerName: player.name,
+
+        pokemonName: pokemon[index].name,
+
+        total: roundedBattleTotal(pokemon[index].total)
+
+      }));
+
+      const max = Math.max(...results.map(r => r.total));
+
+      const min = Math.min(...results.map(r => r.total));
+
+      const difference = max - min;
+
+      const winners = results.filter(r => r.total === max);
+
+      const losers = results.filter(r => r.total === min);
+
+      const changes = {};
+
+      players.forEach(player => {
+        changes[player.id] = 0;
+      });
+
+      // 1位・最下位の人数に応じて精算
+      if (difference > 0) {
+
+        winners.forEach(player => {
+          changes[player.playerId] =
+            difference * losers.length;
+        });
+
+        losers.forEach(player => {
+          changes[player.playerId] =
+            -difference * winners.length;
+        });
+
+      }
+
+      // 今回の対戦結果を保存
+      const round = {
+
+        number: battleData.rounds.length + 1,
+
+        difference,
+
+        results,
+
+        changes,
+
+        recordedAt: new Date().toISOString()
+
+      };
+
+      battleData.rounds.push(round);
+
+      saveBattleData();
+
+      renderBattleMode();
+
+      message.textContent = difference === 0
+        ? `${round.number}回戦を自動記録しました。全員同じ種族値のためポイント変動はありません。`
+        : `${round.number}回戦を自動記録！ 種族値差${difference}。1位${winners.length}人・最下位${losers.length}人で精算しました。`;
+    }
+
+    // ========================================
+    // 直前の対戦を取り消す
+    // ========================================
+
+    function undoBattleRound() {
+
+      if (!battleData.rounds.length) {
+
+        document.getElementById("battleMessage").textContent =
+          "取り消す対戦記録がありません。";
+
+        return;
+      }
+
+      const last =
+        battleData.rounds[battleData.rounds.length - 1];
+
+      if (!confirm(`${last.number}回戦を取り消しますか？`)) {
+        return;
+      }
+
+      battleData.rounds.pop();
+
+      battleData.rounds.forEach((round, index) => {
+        round.number = index + 1;
+      });
+
+      saveBattleData();
+
+      renderBattleMode();
+
+      document.getElementById("battleMessage").textContent =
+        "直前の回戦を取り消しました。";
+    }
+
+    // ========================================
+    // 全リセット
+    // ========================================
+
+    function resetBattleData() {
+
+      if (!confirm(
+        "プレイヤー登録・全対戦履歴・累計ポイントを削除しますか？"
+      )) {
+        return;
+      }
+
+      battleData = {
+        players: [],
+        rounds: []
+      };
+
+      saveBattleData();
+
+      renderBattleMode();
+
+      document.getElementById("battleMessage").textContent =
+        "対戦データをリセットしました。";
+    }
+
+    document.addEventListener(
+      "DOMContentLoaded",
+      renderBattleMode
+    );
+
+  </script>
+</body>
+</html>
